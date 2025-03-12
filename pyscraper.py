@@ -20,24 +20,6 @@ def main():
     
     update_json_file(data, output_file)
 
-# reports the total number of projects with .rs files
-# reports total number of projects
-# returns collection of names of rust projects
-def get_rust_projects(filename, extension):
-    rust_projects = []
-    with open(filename, 'r') as f:
-        data = json.load(f)
-        f.close()
-    
-    for repo_name, repo_info in data.items():
-        if repo_info[extension] > 0:
-            rust_projects.append(repo_name)
-    
-    print(len(data))
-    print(len(rust_projects))
-
-    return rust_projects
-
 #updates the count attribute for all repositories using git
 def count_files_in_all_repositories_git(data, extension):
     for repo_name, repo_info in data.items():
