@@ -1,0 +1,66 @@
+{
+    "platform/external/roboto-flex-fonts": {
+        "name": "platform/external/roboto-flex-fonts",
+        "clone_url": "https://android.googlesource.com/platform/external/roboto-flex-fonts",
+        "description": "Bug: 276927805",
+        ".rs": 0
+    },
+    "platform/external/roboto-fonts": {
+        "name": "platform/external/roboto-fonts",
+        "clone_url": "https://android.googlesource.com/platform/external/roboto-fonts",
+        ".rs": 0
+    },
+    "platform/external/rootdev": {
+        "name": "platform/external/rootdev",
+        "clone_url": "https://android.googlesource.com/platform/external/rootdev",
+        ".rs": 0
+    },
+    "platform/external/rules_pkg": {
+        "name": "platform/external/rules_pkg",
+        "clone_url": "https://android.googlesource.com/platform/external/rules_pkg",
+        "description": "Bug: 306192195",
+        ".rs": 0
+    },
+    "platform/external/rust/android-crates-io": {
+        "name": "platform/external/rust/android-crates-io",
+        "clone_url": "https://android.googlesource.com/platform/external/rust/android-crates-io",
+        "description": "Bug: 303584371",
+        ".rs": 10831
+    },
+    "platform/external/rust/autocxx": {
+        "name": "platform/external/rust/autocxx",
+        "clone_url": "https://android.googlesource.com/platform/external/rust/autocxx",
+        "description": "Bug: 288516832",
+        ".rs": 0
+    },
+    "platform/external/rust/beto-rust": {
+        "name": "platform/external/rust/beto-rust",
+        "clone_url": "https://android.googlesource.com/platform/external/rust/beto-rust",
+        "description": "Bug: 269471404",
+        ".rs": 302
+    },
+    "platform/external/rust/crabbyavif": {
+        "name": "platform/external/rust/crabbyavif",
+        "clone_url": "https://android.googlesource.com/platform/external/rust/crabbyavif",
+        "description": "Bug: 352143443",
+        ".rs": 54
+    },
+    "platform/external/rust/crates/aarch64-paging": {
+        "name": "platform/external/rust/crates/aarch64-paging",
+        "clone_url": "https://android.googlesource.com/platform/external/rust/crates/aarch64-paging",
+        "description": "Bug: 232459444",
+        ".rs": 4
+    },
+    "platform/external/rust/crates/acpi": {
+        "name": "platform/external/rust/crates/acpi",
+        "clone_url": "https://android.googlesource.com/platform/external/rust/crates/acpi",
+        "description": "Bug: 326112506",
+        ".rs": 13
+    },
+    "platform/external/rust/crates/addr2line": {
+        "name": "platform/external/rust/crates/addr2line",
+        "clone_url": "https://android.googlesource.com/platform/external/rust/crates/addr2line",
+        "description": "Bug: 276321994",
+        ".rs": 0
+    }
+}
