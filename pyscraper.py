@@ -38,14 +38,11 @@ def get_rust_projects(filename, extension):
 
     return rust_projects
 
-
-
-
 #updates the count attribute for all repositories using git
 def count_files_in_all_repositories_git(data, extension):
     for repo_name, repo_info in data.items():
-        branches = repo_info.get('branches')
-        repo_info[extension] = count_files_git(branches, extension)
+        url = repo_info["clone_url"]
+        repo_info[extension] = count_files_git(url, extension)
         #print(repo_name)
         #print(repo_info[extension])
 
@@ -235,5 +232,6 @@ def get_tree(url):
 def update_json_file(data, filename):
     with open(filename, 'w') as f:
         json.dump(data, f, indent=4)
+        f.close()
 
 main()
