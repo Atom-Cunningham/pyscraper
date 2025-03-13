@@ -3,6 +3,7 @@ import sys
 
 def main():
 
+    total_size_key = "total"
     filename =  sys.argv[1]
     # Load the JSON file
     with open(filename, "r", encoding="utf-8") as f:
@@ -15,11 +16,11 @@ def main():
 
 
     sort_by_count(data, ".rs", rs_repos)
+    
     print("the ten biggest are")
     for i in range(1,11):
         name = rs_repos[i-1]
         print(i,". " + name)
-    
 
 
 # get items with ".rs" > 0

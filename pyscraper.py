@@ -20,37 +20,67 @@ def main():
     
     update_json_file(data, output_file)
 
+    
+
 #updates the count attribute for all repositories using git
 def count_files_in_all_repositories_git(data, extension):
     for repo_name, repo_info in data.items():
+        total = "total"
+        git_branches = "git_branches"
         url = repo_info["clone_url"]
-        repo_info[extension] = count_files_git(url, extension)
+        repo_info[total], repo_info[extension], repo_info[git_branches] = count_files_git(url, extension)
         #print(repo_name)
         #print(repo_info[extension])
 
-# uses git api to recursively search for files
-# with the given extension in the repo
 def count_files_git(repo_url, extension):
     # Construct the archive URL
     archive_url = repo_url + '/+archive/HEAD.tar.gz'
     
+    # Get branches and commit hashes first
+    git_branches = get_branches_and_latest_commit(repo_url)
+
     # Use curl to download the file listing without cloning
     cmd = ['curl', '-L', archive_url]
     tar_cmd = ['tar', '-tzf', '-']  # Adding -f - so tar reads from stdin
-    grep_cmd = ['grep', f'{extension}$']  # Directly passing the extension
     wc_cmd = ['wc', '-l']
     
     # Pipe the commands together
     curl = subprocess.Popen(cmd, stdout=subprocess.PIPE)
     tar = subprocess.Popen(tar_cmd, stdin=curl.stdout, stdout=subprocess.PIPE)
+    wc = subprocess.Popen(wc_cmd, stdin=tar.stdout, stdout=subprocess.PIPE)
+    
+    # Get the total number of files
+    output, _ = wc.communicate()
+    total_files = int(output.strip())
+    
+    # Now count the number of files with the given extension
+    grep_cmd = ['grep', f'{extension}$']  # Directly passing the extension
+    wc_cmd = ['wc', '-l']
+    
     grep = subprocess.Popen(grep_cmd, stdin=tar.stdout, stdout=subprocess.PIPE)
     wc = subprocess.Popen(wc_cmd, stdin=grep.stdout, stdout=subprocess.PIPE)
     
-    # Get the result
+    # Get the result for .rs files
     output, _ = wc.communicate()
-    count = int(output.strip())
+    count_extension = int(output.strip())
     
-    return count
+    return total_files, count_extension, git_branches
+
+
+# Fetch all branches and their latest commit hashes from a remote repo.
+def get_branches_and_latest_commit(repo_url):
+    # Construct the archive URL
+    result = subprocess.run(["git", "ls-remote", repo_url], capture_output=True, text=True)
+    
+    branches = {}
+    if result.stdout:
+        for line in result.stdout.strip().split("\n"):
+            commit_hash, ref = line.split("\t")
+            if ref.startswith("refs/heads/"):  # Extract only branch names
+                branch_name = ref.replace("refs/heads/", "")
+                branches[branch_name] = commit_hash
+    
+    return branches
 
        
 #get filenames from args
@@ -106,6 +136,7 @@ def count_files(branches, extension, quickCount=False):
 # iterates over the git clone pages
 # gets links to filesystems named "main"
 # can be refactored to get all filesystems
+# not the same as git branches. Html dom branches
 def collect_main_branches(data):
     for repo_name, repo_info in data.items():
         clone_url = repo_info.get('clone_url')
