@@ -5,3 +5,5 @@
  creates output at <filename>_output.json
 
  for a report use command: python report.py <filename>_output.json
+ uses output file to output text to the terminal
+ 

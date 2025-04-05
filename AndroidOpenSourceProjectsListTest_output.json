@@ -1202,7 +1202,7 @@
         "clone_url": "https://android.googlesource.com/platform/external/rust/android-crates-io",
         "description": "Bug: 303584371",
         "total": 31298,
-        ".rs": 0,
+        ".rs": 10830,
         "git_branches": {
             "android15-automotiveos-dev": "4b07c8156d6b006875ca60bddcd6bc8c5236fd6f",
             "android15-platform-release": "e624726b65deebe52cce6bb1d3ecaaa8f1568072",
@@ -1221,7 +1221,7 @@
             "android15-tests-release": "e624726b65deebe52cce6bb1d3ecaaa8f1568072",
             "build-tools-release": "32716f66f988842d6161ff5828045cbf23ed62f8",
             "busytown-mac-infra-release": "c25ac222830cad183a2636b183f8d52f095d6075",
-            "main": "a9f633686b8b052b9c023ee20ef3bb76dec4494f",
+            "main": "74ae8ee12ed971375e94bd31f241e98894f0d171",
             "sdk-release": "b768c459133dc460619e7cb697c0db863c4ce76c",
             "simpleperf-release": "9970c04963c33ae01b6a234fd884f90d09af4571"
         }
@@ -1230,7 +1230,7 @@
         "name": "platform/external/rust/autocxx",
         "clone_url": "https://android.googlesource.com/platform/external/rust/autocxx",
         "description": "Bug: 288516832",
-        "total": 0,
+        "total": 1,
         ".rs": 0,
         "git_branches": {
             "android14-qpr2-release": "07cee73ed86e736981a806f6d1354935963e1529",
@@ -1287,7 +1287,7 @@
         "clone_url": "https://android.googlesource.com/platform/external/rust/beto-rust",
         "description": "Bug: 269471404",
         "total": 790,
-        ".rs": 0,
+        ".rs": 302,
         "git_branches": {
             "aml_ads_341826060": "351296a1a1cfc52b7fd4156462dedf468e0a67c4",
             "aml_ads_341826300": "351296a1a1cfc52b7fd4156462dedf468e0a67c4",
@@ -1407,7 +1407,7 @@
         "clone_url": "https://android.googlesource.com/platform/external/rust/crabbyavif",
         "description": "Bug: 352143443",
         "total": 184,
-        ".rs": 0,
+        ".rs": 54,
         "git_branches": {
             "android15-automotiveos-dev": "2218324e3cd305a6d57ba63971a897c369d8bf14",
             "android15-qpr1-release": "2218324e3cd305a6d57ba63971a897c369d8bf14",
@@ -1422,7 +1422,7 @@
             "sdk-release": "4db709b67c020315d6bba760c35fd3015bbd689c",
             "simpleperf-release": "9a71f73c09bf4ce5738be863f63afe73b1cce347",
             "upstream": "87389c24d3b7081347df2221459ecb6d060eadfe",
-            "upstream-main": "fae0637f9532cbcadd5e38314878115a22bb931f"
+            "upstream-main": "e1421bc77fed6f1e6cc1573e8c7e73e613bf37a3"
         }
     },
     "platform/external/rust/crates/aarch64-paging": {
@@ -1430,7 +1430,7 @@
         "clone_url": "https://android.googlesource.com/platform/external/rust/crates/aarch64-paging",
         "description": "Bug: 232459444",
         "total": 24,
-        ".rs": 0,
+        ".rs": 4,
         "git_branches": {
             "aml_ads_341826060": "4d61ae78b0f52ae0dd75dd08cc536e8b88da76fb",
             "aml_ads_341826300": "4d61ae78b0f52ae0dd75dd08cc536e8b88da76fb",
@@ -1550,7 +1550,7 @@
         "clone_url": "https://android.googlesource.com/platform/external/rust/crates/acpi",
         "description": "Bug: 326112506",
         "total": 28,
-        ".rs": 0,
+        ".rs": 13,
         "git_branches": {
             "android15-automotiveos-dev": "e2e5d0341ef7af44416431d3f3cadf980214e4d2",
             "android15-platform-release": "75199436f35eeadfe09534637e4620cf1a166051",
@@ -1575,7 +1575,7 @@
         "name": "platform/external/rust/crates/addr2line",
         "clone_url": "https://android.googlesource.com/platform/external/rust/crates/addr2line",
         "description": "Bug: 276321994",
-        "total": 0,
+        "total": 1,
         ".rs": 0,
         "git_branches": {
             "main": "a4e809e6ee6fb30f9f82b5e27680017797d11798",

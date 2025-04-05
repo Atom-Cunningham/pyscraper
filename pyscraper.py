@@ -32,6 +32,7 @@ def count_files_in_all_repositories_git(data, extension):
         #print(repo_name)
         #print(repo_info[extension])
 
+#count rs files, total files, and get commit hashes
 def count_files_git(repo_url, extension):
     # Construct the archive URL
     archive_url = repo_url + '/+archive/HEAD.tar.gz'
@@ -41,31 +42,20 @@ def count_files_git(repo_url, extension):
 
     # Use curl to download the file listing without cloning
     cmd = ['curl', '-L', archive_url]
-    tar_cmd = ['tar', '-tzf', '-']  # Adding -f - so tar reads from stdin
-    wc_cmd = ['wc', '-l']
-    
-    # Pipe the commands together
-    curl = subprocess.Popen(cmd, stdout=subprocess.PIPE)
-    tar = subprocess.Popen(tar_cmd, stdin=curl.stdout, stdout=subprocess.PIPE)
-    wc = subprocess.Popen(wc_cmd, stdin=tar.stdout, stdout=subprocess.PIPE)
-    
-    # Get the total number of files
-    output, _ = wc.communicate()
-    total_files = int(output.strip())
-    
-    # Now count the number of files with the given extension
-    grep_cmd = ['grep', f'{extension}$']  # Directly passing the extension
-    wc_cmd = ['wc', '-l']
-    
-    grep = subprocess.Popen(grep_cmd, stdin=tar.stdout, stdout=subprocess.PIPE)
-    wc = subprocess.Popen(wc_cmd, stdin=grep.stdout, stdout=subprocess.PIPE)
-    
-    # Get the result for .rs files
-    output, _ = wc.communicate()
-    count_extension = int(output.strip())
-    
-    return total_files, count_extension, git_branches
+    tar_cmd = ['tar', '-tzf', '-']  # List all files
 
+    # Get the file list first
+    curl = subprocess.Popen(cmd, stdout=subprocess.PIPE)
+    tar = subprocess.Popen(tar_cmd, stdin=curl.stdout, stdout=subprocess.PIPE, text=True)
+    
+    # Read all file paths from tar
+    file_list, _ = tar.communicate()
+    file_list = file_list.strip().split("\n")  # Convert to list
+
+    total_files = len(file_list)  # Count total files
+    count_extension = sum(1 for file in file_list if file.endswith(extension))  # Count matching extensions
+
+    return total_files, count_extension, git_branches
 
 # Fetch all branches and their latest commit hashes from a remote repo.
 def get_branches_and_latest_commit(repo_url):
