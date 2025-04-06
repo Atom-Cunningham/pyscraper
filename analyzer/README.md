@@ -15,4 +15,6 @@ use the syn crate to parse Rust files
 walk the Abstract Syntax Tree for Foreign Function Interface indicators.
 
 👓 args for analyzer.py
-python analyzer.py <repo json filename> <output filename>
+python analyzer.py <repo json filename>
+
+you can use filtered_rs_repos.json
