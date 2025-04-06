@@ -1,0 +1,1 @@
+C:\Users\sunna\Documents\csc\ 566\rustScraper\pyscraper\analyzer\rust_ffi_metrics\target\debug\rust_ffi_metrics.exe: C:\Users\sunna\Documents\csc\ 566\rustScraper\pyscraper\analyzer\rust_ffi_metrics\src\main.rs

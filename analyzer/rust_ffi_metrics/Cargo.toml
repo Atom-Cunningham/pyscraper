@@ -1,0 +1,8 @@
+[package]
+name = "rust_ffi_metrics"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+syn = { version = "2.0", features = ["full"] }
+walkdir = "2.4"
