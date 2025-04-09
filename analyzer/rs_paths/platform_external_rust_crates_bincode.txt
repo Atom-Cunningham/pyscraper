@@ -1,0 +1,14 @@
+src/byteorder.rs
+src/config/endian.rs
+src/config/int.rs
+src/config/legacy.rs
+src/config/limit.rs
+src/config/mod.rs
+src/config/trailing.rs
+src/de/mod.rs
+src/de/read.rs
+src/error.rs
+src/internal.rs
+src/lib.rs
+src/ser/mod.rs
+tests/test.rs

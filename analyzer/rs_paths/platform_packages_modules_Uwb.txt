@@ -1,0 +1,14 @@
+indev_uwb_adaptation/jni/src/api.rs
+indev_uwb_adaptation/jni/src/callback.rs
+indev_uwb_adaptation/jni/src/context.rs
+indev_uwb_adaptation/jni/src/error.rs
+indev_uwb_adaptation/jni/src/lib.rs
+indev_uwb_adaptation/jni/src/object_mapping.rs
+indev_uwb_adaptation/jni/src/unique_jvm.rs
+service/uci/jni/src/dispatcher.rs
+service/uci/jni/src/helper.rs
+service/uci/jni/src/jclass_name.rs
+service/uci/jni/src/lib.rs
+service/uci/jni/src/notification_manager_android.rs
+service/uci/jni/src/uci_jni_android_new.rs
+service/uci/jni/src/unique_jvm.rs

@@ -1,0 +1,16 @@
+adevice/src/adevice.rs
+adevice/src/adevice_fingerprint.rs
+adevice/src/cli.rs
+adevice/src/commands.rs
+adevice/src/device.rs
+adevice/src/fingerprint.rs
+adevice/src/lib.rs
+adevice/src/main.rs
+adevice/src/metrics.rs
+adevice/src/progress.rs
+adevice/src/restart_chooser.rs
+adevice/src/tracking.rs
+adevice/tests/common/fakes.rs
+adevice/tests/common/mod.rs
+adevice/tests/partial_program_tests.rs
+adevice/tests/whole_program_tests.rs

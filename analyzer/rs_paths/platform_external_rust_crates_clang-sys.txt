@@ -1,0 +1,13 @@
+build.rs
+build/common.rs
+build/dynamic.rs
+build/macros.rs
+build/static.rs
+out/common.rs
+out/dynamic.rs
+out/macros.rs
+src/lib.rs
+src/link.rs
+src/support.rs
+tests/build.rs
+tests/lib.rs

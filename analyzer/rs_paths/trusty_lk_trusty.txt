@@ -1,0 +1,9 @@
+lib/arm_ffa/rust/lib.rs
+lib/dtb_boot_params/src/lib.rs
+lib/dtb_service/rust/src/lib.rs
+lib/extmem/rust/lib.rs
+lib/rand/rust/lib.rs
+lib/sm/rust/lib.rs
+lib/vmm_obj_service/rust/src/lib.rs
+platform/desktop/arm64/rust/src/lib.rs
+platform/generic-x86_64/rust/src/lib.rs

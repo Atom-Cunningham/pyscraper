@@ -1,0 +1,15 @@
+src/by_ptr.rs
+src/compat.rs
+src/lib.rs
+src/ptr_weak_hash_set.rs
+src/ptr_weak_key_hash_map.rs
+src/ptr_weak_weak_hash_map.rs
+src/size_policy.rs
+src/traits.rs
+src/util.rs
+src/weak_hash_set.rs
+src/weak_key_hash_map.rs
+src/weak_value_hash_map.rs
+src/weak_weak_hash_map.rs
+tests/symbols.rs
+tests/weak_key_hash_map.rs

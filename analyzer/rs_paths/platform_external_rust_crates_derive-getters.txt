@@ -1,0 +1,14 @@
+src/dissolve.rs
+src/extract.rs
+src/faultmsg.rs
+src/getters.rs
+src/lib.rs
+tests/01-legacy.rs
+tests/02-simple-single-generic.rs
+tests/03-simple-multi-generic.rs
+tests/04-simple-lifetime-annot.rs
+tests/05-skip-rename-attributes.rs
+tests/06-plays-with-others.rs
+tests/07-dissolve-basic.rs
+tests/08-dissolve-generic-and-ref.rs
+tests/lib.rs

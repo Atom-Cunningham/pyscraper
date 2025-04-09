@@ -1,0 +1,12 @@
+src/collect.rs
+src/combinators/box_body.rs
+src/combinators/map_data.rs
+src/combinators/map_err.rs
+src/combinators/mod.rs
+src/empty.rs
+src/full.rs
+src/lib.rs
+src/limited.rs
+src/next.rs
+src/size_hint.rs
+tests/is_end_stream.rs

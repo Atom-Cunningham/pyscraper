@@ -1,0 +1,11 @@
+examples/simple.rs
+examples/tidy.rs
+src/args.rs
+src/lib.rs
+src/printer.rs
+tests/all_passing.rs
+tests/common/mod.rs
+tests/main_thread.rs
+tests/mixed_bag.rs
+tests/panic.rs
+tests/real/mixed_bag.rs

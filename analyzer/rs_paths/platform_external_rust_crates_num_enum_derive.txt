@@ -1,0 +1,5 @@
+src/enum_attributes.rs
+src/lib.rs
+src/parsing.rs
+src/utils.rs
+src/variant_attributes.rs

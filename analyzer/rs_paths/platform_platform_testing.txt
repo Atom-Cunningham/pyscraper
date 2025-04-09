@@ -1,0 +1,6 @@
+libraries/rdroidtest/macro/lib.rs
+libraries/rdroidtest/src/lib.rs
+libraries/rdroidtest/src/runner.rs
+libraries/rdroidtest/tests/main.rs
+libraries/rdroidtest/tests/raw.rs
+tests/codecoverage/native/rust/coverage_rust_smoke_test.rs

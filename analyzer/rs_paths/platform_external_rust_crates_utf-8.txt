@@ -1,0 +1,5 @@
+benches/from_utf8_lossy.rs
+src/lib.rs
+src/lossy.rs
+src/read.rs
+tests/unit.rs

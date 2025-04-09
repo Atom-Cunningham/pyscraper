@@ -1,0 +1,11 @@
+benches/xid.rs
+src/lib.rs
+src/tables.rs
+tests/compare.rs
+tests/fst/mod.rs
+tests/roaring/mod.rs
+tests/static_size.rs
+tests/tables/mod.rs
+tests/tables/tables.rs
+tests/trie/mod.rs
+tests/trie/trie.rs

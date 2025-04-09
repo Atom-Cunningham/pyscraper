@@ -1,0 +1,9 @@
+benches/bench.rs
+build.rs
+src/baseline.rs
+src/combine.rs
+src/lib.rs
+src/specialized/aarch64.rs
+src/specialized/mod.rs
+src/specialized/pclmulqdq.rs
+src/table.rs

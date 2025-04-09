@@ -1,0 +1,14 @@
+libnfc-nci/src/rust/hal/hal.rs
+libnfc-nci/src/rust/hal/hidl_hal.rs
+libnfc-nci/src/rust/hal/rootcanal_hal.rs
+libnfc-nci/src/rust/nci/api.rs
+libnfc-nci/src/rust/nci/nci.rs
+libnfc-nci/src/rust/packets/lib.rs
+libnfc-nci/src/rust/test/main.rs
+libnfc-nci/tools/casimir/build.rs
+libnfc-nci/tools/casimir/src/controller.rs
+libnfc-nci/tools/casimir/src/crc.rs
+libnfc-nci/tools/casimir/src/main-grpc.rs
+libnfc-nci/tools/casimir/src/main.rs
+libnfc-nci/tools/casimir/src/packets.rs
+libnfc-nci/tools/casimir/src/proto/mod.rs

@@ -1,0 +1,3 @@
+src/com/android/musicvis/vis4/vu.rs
+src/com/android/musicvis/vis5/many.rs
+src/com/android/musicvis/waveform.rs

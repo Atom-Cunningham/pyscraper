@@ -1,0 +1,13 @@
+src/address.rs
+src/bgrt.rs
+src/fadt.rs
+src/handler.rs
+src/hpet.rs
+src/lib.rs
+src/madt.rs
+src/managed_slice.rs
+src/mcfg.rs
+src/platform/interrupt.rs
+src/platform/mod.rs
+src/rsdp.rs
+src/sdt.rs

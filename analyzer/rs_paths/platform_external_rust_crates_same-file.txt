@@ -1,0 +1,6 @@
+examples/is_same_file.rs
+examples/is_stderr.rs
+src/lib.rs
+src/unix.rs
+src/unknown.rs
+src/win.rs

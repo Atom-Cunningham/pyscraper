@@ -1,0 +1,11 @@
+src/char_data/mod.rs
+src/char_data/tables.rs
+src/data_source.rs
+src/deprecated.rs
+src/explicit.rs
+src/format_chars.rs
+src/implicit.rs
+src/level.rs
+src/lib.rs
+src/prepare.rs
+src/utf16.rs

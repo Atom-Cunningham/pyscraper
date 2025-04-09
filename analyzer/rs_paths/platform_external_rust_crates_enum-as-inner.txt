@@ -1,0 +1,7 @@
+src/lib.rs
+tests/basic.rs
+tests/generics.rs
+tests/named.rs
+tests/snake_case.rs
+tests/unit.rs
+tests/unnamed.rs

@@ -1,0 +1,4 @@
+benches/bench.rs
+src/lib.rs
+tests/char.rs
+tests/smoke.rs

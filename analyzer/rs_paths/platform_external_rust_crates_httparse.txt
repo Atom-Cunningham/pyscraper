@@ -1,0 +1,10 @@
+benches/parse.rs
+build.rs
+src/iter.rs
+src/lib.rs
+src/macros.rs
+src/simd/avx2.rs
+src/simd/fallback.rs
+src/simd/mod.rs
+src/simd/sse42.rs
+tests/uri.rs

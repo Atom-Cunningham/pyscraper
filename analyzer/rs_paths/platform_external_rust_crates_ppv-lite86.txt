@@ -1,0 +1,6 @@
+src/generic.rs
+src/lib.rs
+src/soft.rs
+src/types.rs
+src/x86_64/mod.rs
+src/x86_64/sse2.rs

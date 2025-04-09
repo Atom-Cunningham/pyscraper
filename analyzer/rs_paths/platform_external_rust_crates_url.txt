@@ -1,0 +1,10 @@
+src/host.rs
+src/lib.rs
+src/origin.rs
+src/parser.rs
+src/path_segments.rs
+src/quirks.rs
+src/slicing.rs
+tests/data.rs
+tests/debugger_visualizer.rs
+tests/unit.rs

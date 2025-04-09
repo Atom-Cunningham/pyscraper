@@ -1,0 +1,17 @@
+src/distributed_slice.rs
+src/lib.rs
+src/private.rs
+tests/compiletest.rs
+tests/custom_linkme_path.rs
+tests/distributed_slice.rs
+tests/example.rs
+tests/fn_element.rs
+tests/module/mod.rs
+tests/module_2015.rs
+tests/module_2021.rs
+tests/ui/bad_crate_path.rs
+tests/ui/generic_fn.rs
+tests/ui/mismatched_types.rs
+tests/ui/mutable.rs
+tests/ui/unsupported_item.rs
+tests/ui/zerosized.rs

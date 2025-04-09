@@ -1,0 +1,5 @@
+src/aarch64.rs
+src/lib.rs
+src/x86.rs
+tests/zeroize.rs
+tests/zeroize_derive.rs

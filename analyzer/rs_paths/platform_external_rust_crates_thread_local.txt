@@ -1,0 +1,5 @@
+benches/thread_local.rs
+src/cached.rs
+src/lib.rs
+src/thread_id.rs
+src/unreachable.rs

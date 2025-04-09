@@ -1,0 +1,1964 @@
+- name: device/google/cuttlefish
+  url: https://android.googlesource.com/device/google/cuttlefish
+  description: 'Bug: 70284148'
+  rust_src_file_count: 21
+- name: device/google/gs-common
+  url: https://android.googlesource.com/device/google/gs-common
+  description: 'Bug: 201551519'
+  rust_src_file_count: 1
+- name: platform/bionic
+  url: https://android.googlesource.com/platform/bionic
+  description: libc, libm, libdl, dynamic linker
+  rust_src_file_count: 1
+- name: platform/build
+  url: https://android.googlesource.com/platform/build
+  description: build system
+  rust_src_file_count: 60
+- name: platform/bootable/libbootloader
+  url: https://android.googlesource.com/platform/bootable/libbootloader
+  description: 'Bug: 178600786'
+  rust_src_file_count: 103
+- name: platform/developers/build
+  url: https://android.googlesource.com/platform/developers/build
+  description: ''
+  rust_src_file_count: 2
+- name: platform/external/angle
+  url: https://android.googlesource.com/platform/external/angle
+  description: ''
+  rust_src_file_count: 49
+- name: platform/development
+  url: https://android.googlesource.com/platform/development
+  description: Platform engineering tools, sample code
+  rust_src_file_count: 51
+- name: platform/developers/samples/android
+  url: https://android.googlesource.com/platform/developers/samples/android
+  description: ''
+  rust_src_file_count: 2
+- name: platform/external/crosvm
+  url: https://android.googlesource.com/platform/external/crosvm
+  description: 'Bug: 129497774'
+  rust_src_file_count: 1057
+- name: platform/external/clang
+  url: https://android.googlesource.com/platform/external/clang
+  description: ''
+  rust_src_file_count: 3
+- name: platform/external/flatbuffers
+  url: https://android.googlesource.com/platform/external/flatbuffers
+  description: ''
+  rust_src_file_count: 163
+- name: platform/external/flashrom
+  url: https://android.googlesource.com/platform/external/flashrom
+  description: 'Bug: 346988262'
+  rust_src_file_count: 17
+- name: platform/external/gsc-utils
+  url: https://android.googlesource.com/platform/external/gsc-utils
+  description: 'Bug: 361398570'
+  rust_src_file_count: 5
+- name: platform/external/harfbuzz_ng
+  url: https://android.googlesource.com/platform/external/harfbuzz_ng
+  description: ''
+  rust_src_file_count: 2
+- name: platform/external/libchromeos-rs
+  url: https://android.googlesource.com/platform/external/libchromeos-rs
+  description: 'Bug: 175645714'
+  rust_src_file_count: 13
+- name: platform/external/kythe
+  url: https://android.googlesource.com/platform/external/kythe
+  description: 'Bug: 135923310'
+  rust_src_file_count: 62
+- name: platform/external/minijail
+  url: https://android.googlesource.com/platform/external/minijail
+  description: ''
+  rust_src_file_count: 5
+- name: platform/external/n2
+  url: https://android.googlesource.com/platform/external/n2
+  description: 'Bug: 328273370'
+  rust_src_file_count: 42
+- name: platform/external/open-dice
+  url: https://android.googlesource.com/platform/external/open-dice
+  description: 'Bug: 193651115'
+  rust_src_file_count: 8
+- name: platform/external/pigweed
+  url: https://android.googlesource.com/platform/external/pigweed
+  description: 'Bug: 199275786'
+  rust_src_file_count: 50
+- name: platform/external/opencv3
+  url: https://android.googlesource.com/platform/external/opencv3
+  description: ''
+  rust_src_file_count: 1
+- name: platform/external/python/bumble
+  url: https://android.googlesource.com/platform/external/python/bumble
+  description: 'Bug: 241141616'
+  rust_src_file_count: 45
+- name: platform/external/mesa3d
+  url: https://android.googlesource.com/platform/external/mesa3d
+  description: ''
+  rust_src_file_count: 110
+- name: platform/external/rust/crabbyavif
+  url: https://android.googlesource.com/platform/external/rust/crabbyavif
+  description: 'Bug: 352143443'
+  rust_src_file_count: 56
+- name: platform/external/rust/crates/acpi
+  url: https://android.googlesource.com/platform/external/rust/crates/acpi
+  description: 'Bug: 326112506'
+  rust_src_file_count: 13
+- name: platform/external/rust/crates/android_logger
+  url: https://android.googlesource.com/platform/external/rust/crates/android_logger
+  description: 'Bug: 159321223'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/aho-corasick
+  url: https://android.googlesource.com/platform/external/rust/crates/aho-corasick
+  description: 'Bug: 153119313'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/android_log-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/android_log-sys
+  description: 'Bug: 160235717'
+  rust_src_file_count: 1
+- name: platform/external/rust/beto-rust
+  url: https://android.googlesource.com/platform/external/rust/beto-rust
+  description: 'Bug: 269471404'
+  rust_src_file_count: 302
+- name: platform/external/rust/crates/ahash
+  url: https://android.googlesource.com/platform/external/rust/crates/ahash
+  description: 'Bug: 172275946'
+  rust_src_file_count: 14
+- name: platform/external/rust/crates/arbitrary
+  url: https://android.googlesource.com/platform/external/rust/crates/arbitrary
+  description: 'Bug: 160630015'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/argh
+  url: https://android.googlesource.com/platform/external/rust/crates/argh
+  description: 'Bug: 215040939'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/arc-swap
+  url: https://android.googlesource.com/platform/external/rust/crates/arc-swap
+  description: 'Bug: 300202401'
+  rust_src_file_count: 26
+- name: platform/external/rust/crates/aarch64-paging
+  url: https://android.googlesource.com/platform/external/rust/crates/aarch64-paging
+  description: 'Bug: 232459444'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/arrayvec
+  url: https://android.googlesource.com/platform/external/rust/crates/arrayvec
+  description: 'Bug: 314392583'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/asn1-rs
+  url: https://android.googlesource.com/platform/external/rust/crates/asn1-rs
+  description: 'Bug: 312432424'
+  rust_src_file_count: 72
+- name: platform/external/rust/crates/asn1-rs-derive
+  url: https://android.googlesource.com/platform/external/rust/crates/asn1-rs-derive
+  description: 'Bug: 312436720'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/argh_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/argh_derive
+  description: 'Bug: 215313373'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/async-stream
+  url: https://android.googlesource.com/platform/external/rust/crates/async-stream
+  description: 'Bug: 180536896'
+  rust_src_file_count: 13
+- name: platform/external/rust/crates/async-stream-impl
+  url: https://android.googlesource.com/platform/external/rust/crates/async-stream-impl
+  description: 'Bug: 180537538'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/annotate-snippets
+  url: https://android.googlesource.com/platform/external/rust/crates/annotate-snippets
+  description: 'Bug: 288513125'
+  rust_src_file_count: 20
+- name: platform/external/rust/crates/atomic
+  url: https://android.googlesource.com/platform/external/rust/crates/atomic
+  description: 'Bug: 266098939'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/anes
+  url: https://android.googlesource.com/platform/external/rust/crates/anes
+  description: 'Bug: 269750504'
+  rust_src_file_count: 28
+- name: platform/external/rust/crates/asn1-rs-impl
+  url: https://android.googlesource.com/platform/external/rust/crates/asn1-rs-impl
+  description: 'Bug: 312436741'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/axum
+  url: https://android.googlesource.com/platform/external/rust/crates/axum
+  description: 'Bug: 338999655'
+  rust_src_file_count: 59
+- name: platform/external/rust/crates/base64
+  url: https://android.googlesource.com/platform/external/rust/crates/base64
+  description: 'Bug: 192001186'
+  rust_src_file_count: 25
+- name: platform/external/rust/crates/async-trait
+  url: https://android.googlesource.com/platform/external/rust/crates/async-trait
+  description: 'Bug: 164106399'
+  rust_src_file_count: 27
+- name: platform/external/rust/crates/ash
+  url: https://android.googlesource.com/platform/external/rust/crates/ash
+  description: 'Bug: 197991435'
+  rust_src_file_count: 98
+- name: platform/external/rust/crates/argh_shared
+  url: https://android.googlesource.com/platform/external/rust/crates/argh_shared
+  description: 'Bug: 215312346'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/bindgen
+  url: https://android.googlesource.com/platform/external/rust/crates/bindgen
+  description: 'Bug: 153207424'
+  rust_src_file_count: 56
+- name: platform/external/rust/crates/bit_field
+  url: https://android.googlesource.com/platform/external/rust/crates/bit_field
+  description: 'Bug: 326114231'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/bindgen-cli
+  url: https://android.googlesource.com/platform/external/rust/crates/bindgen-cli
+  description: 'Bug: 262005451'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/axum-core
+  url: https://android.googlesource.com/platform/external/rust/crates/axum-core
+  description: 'Bug: 339172336'
+  rust_src_file_count: 18
+- name: platform/external/rust/crates/bitreader
+  url: https://android.googlesource.com/platform/external/rust/crates/bitreader
+  description: 'Bug: 257493050'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/buddy_system_allocator
+  url: https://android.googlesource.com/platform/external/rust/crates/buddy_system_allocator
+  description: 'Bug: 230395700'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/anyhow
+  url: https://android.googlesource.com/platform/external/rust/crates/anyhow
+  description: 'Bug: 156416094'
+  rust_src_file_count: 35
+- name: platform/external/rust/crates/async-task
+  url: https://android.googlesource.com/platform/external/rust/crates/async-task
+  description: 'Bug: 180427432'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/bstr
+  url: https://android.googlesource.com/platform/external/rust/crates/bstr
+  description: 'Bug: 180112639'
+  rust_src_file_count: 34
+- name: platform/external/rust/crates/atty
+  url: https://android.googlesource.com/platform/external/rust/crates/atty
+  description: 'Bug: 176913224'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/byteorder
+  url: https://android.googlesource.com/platform/external/rust/crates/byteorder
+  description: 'Bug: 135632517'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/bytes
+  url: https://android.googlesource.com/platform/external/rust/crates/bytes
+  description: 'Bug: 158619003'
+  rust_src_file_count: 33
+- name: platform/external/rust/crates/camino
+  url: https://android.googlesource.com/platform/external/rust/crates/camino
+  description: 'Bug: 330683737'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/bytemuck
+  url: https://android.googlesource.com/platform/external/rust/crates/bytemuck
+  description: 'Bug: 292658906'
+  rust_src_file_count: 23
+- name: platform/external/rust/crates/cast
+  url: https://android.googlesource.com/platform/external/rust/crates/cast
+  description: 'Bug: 176913139'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/bytemuck_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/bytemuck_derive
+  description: 'Bug: 293524107'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/cexpr
+  url: https://android.googlesource.com/platform/external/rust/crates/cexpr
+  description: 'Bug: 154342253'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/cfg-if
+  url: https://android.googlesource.com/platform/external/rust/crates/cfg-if
+  description: 'Bug: 154052335'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/ciborium
+  url: https://android.googlesource.com/platform/external/rust/crates/ciborium
+  description: 'Bug: 216213936'
+  rust_src_file_count: 20
+- name: platform/external/rust/crates/ciborium-io
+  url: https://android.googlesource.com/platform/external/rust/crates/ciborium-io
+  description: 'Bug: 216214232'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/clap_complete
+  url: https://android.googlesource.com/platform/external/rust/crates/clap_complete
+  description: 'Bug: 312414193'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/clang-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/clang-sys
+  description: 'Bug: 153119403'
+  rust_src_file_count: 13
+- name: platform/external/rust/crates/clap_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/clap_derive
+  description: 'Bug: 243657526'
+  rust_src_file_count: 16
+- name: platform/external/rust/crates/ciborium-ll
+  url: https://android.googlesource.com/platform/external/rust/crates/ciborium-ll
+  description: 'Bug: 216207407'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/clap_lex
+  url: https://android.googlesource.com/platform/external/rust/crates/clap_lex
+  description: 'Bug: 238351709'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/cbindgen
+  url: https://android.googlesource.com/platform/external/rust/crates/cbindgen
+  description: 'Bug: 370957658'
+  rust_src_file_count: 226
+- name: platform/external/rust/crates/bitflags
+  url: https://android.googlesource.com/platform/external/rust/crates/bitflags
+  description: 'Bug: 146584155'
+  rust_src_file_count: 62
+- name: platform/external/rust/crates/chrono
+  url: https://android.googlesource.com/platform/external/rust/crates/chrono
+  description: 'Bug: 178993043'
+  rust_src_file_count: 44
+- name: platform/external/rust/crates/codespan-reporting
+  url: https://android.googlesource.com/platform/external/rust/crates/codespan-reporting
+  description: 'Bug: 156794058'
+  rust_src_file_count: 15
+- name: platform/external/rust/crates/clap
+  url: https://android.googlesource.com/platform/external/rust/crates/clap
+  description: 'Bug: 157554490'
+  rust_src_file_count: 242
+- name: platform/external/rust/crates/combine
+  url: https://android.googlesource.com/platform/external/rust/crates/combine
+  description: 'Bug: 195933292'
+  rust_src_file_count: 37
+- name: platform/external/rust/crates/configparser
+  url: https://android.googlesource.com/platform/external/rust/crates/configparser
+  description: 'Bug: 298813950'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/const_fn
+  url: https://android.googlesource.com/platform/external/rust/crates/const_fn
+  description: 'Bug: 171359139'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/bincode
+  url: https://android.googlesource.com/platform/external/rust/crates/bincode
+  description: 'Bug: 172669622'
+  rust_src_file_count: 14
+- name: platform/external/rust/crates/const-oid
+  url: https://android.googlesource.com/platform/external/rust/crates/const-oid
+  description: 'Bug: 248038832'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/command-fds
+  url: https://android.googlesource.com/platform/external/rust/crates/command-fds
+  description: 'Bug: 188443660'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/config
+  url: https://android.googlesource.com/platform/external/rust/crates/config
+  description: 'Bug: 298662139'
+  rust_src_file_count: 65
+- name: platform/external/rust/crates/coset
+  url: https://android.googlesource.com/platform/external/rust/crates/coset
+  description: 'Bug: 217561691'
+  rust_src_file_count: 23
+- name: platform/external/rust/crates/crc32fast
+  url: https://android.googlesource.com/platform/external/rust/crates/crc32fast
+  description: 'Bug: 180073849'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/cortex-a
+  url: https://android.googlesource.com/platform/external/rust/crates/cortex-a
+  description: 'Bug: 228115129'
+  rust_src_file_count: 54
+- name: platform/external/rust/crates/cov-mark
+  url: https://android.googlesource.com/platform/external/rust/crates/cov-mark
+  description: 'Bug: 364711528'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/critical-section
+  url: https://android.googlesource.com/platform/external/rust/crates/critical-section
+  description: 'Bug: 276734090'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/bencher
+  url: https://android.googlesource.com/platform/external/rust/crates/bencher
+  description: 'Bug: 175869081'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/criterion
+  url: https://android.googlesource.com/platform/external/rust/crates/criterion
+  description: 'Bug: 179317088'
+  rust_src_file_count: 69
+- name: platform/external/rust/crates/crossbeam-channel
+  url: https://android.googlesource.com/platform/external/rust/crates/crossbeam-channel
+  description: 'Bug: 179214635'
+  rust_src_file_count: 34
+- name: platform/external/rust/crates/crossbeam-utils
+  url: https://android.googlesource.com/platform/external/rust/crates/crossbeam-utils
+  description: 'Bug: 179316330'
+  rust_src_file_count: 24
+- name: platform/external/rust/crates/crossbeam-deque
+  url: https://android.googlesource.com/platform/external/rust/crates/crossbeam-deque
+  description: 'Bug: 179213538'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/crossbeam-epoch
+  url: https://android.googlesource.com/platform/external/rust/crates/crossbeam-epoch
+  description: 'Bug: 179316749'
+  rust_src_file_count: 17
+- name: platform/external/rust/crates/darling
+  url: https://android.googlesource.com/platform/external/rust/crates/darling
+  description: 'Bug: 328420253'
+  rust_src_file_count: 47
+- name: platform/external/rust/crates/csv-core
+  url: https://android.googlesource.com/platform/external/rust/crates/csv-core
+  description: 'Bug: 179101464'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/darling_macro
+  url: https://android.googlesource.com/platform/external/rust/crates/darling_macro
+  description: 'Bug: 328420133'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/darling_core
+  url: https://android.googlesource.com/platform/external/rust/crates/darling_core
+  description: 'Bug: 328419565'
+  rust_src_file_count: 66
+- name: platform/external/rust/crates/crossbeam-queue
+  url: https://android.googlesource.com/platform/external/rust/crates/crossbeam-queue
+  description: 'Bug: 189838288'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/csv
+  url: https://android.googlesource.com/platform/external/rust/crates/csv
+  description: 'Bug: 179101377'
+  rust_src_file_count: 49
+- name: platform/external/rust/crates/data-encoding
+  url: https://android.googlesource.com/platform/external/rust/crates/data-encoding
+  description: 'Bug: 288307411'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/debug_tree
+  url: https://android.googlesource.com/platform/external/rust/crates/debug_tree
+  description: 'Bug: 328410074'
+  rust_src_file_count: 13
+- name: platform/external/rust/crates/criterion-plot
+  url: https://android.googlesource.com/platform/external/rust/crates/criterion-plot
+  description: 'Bug: 179320179'
+  rust_src_file_count: 14
+- name: platform/external/rust/crates/der
+  url: https://android.googlesource.com/platform/external/rust/crates/der
+  description: 'Bug: 249332378'
+  rust_src_file_count: 57
+- name: platform/external/rust/crates/displaydoc
+  url: https://android.googlesource.com/platform/external/rust/crates/displaydoc
+  description: 'Bug: 312432303'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/dashmap
+  url: https://android.googlesource.com/platform/external/rust/crates/dashmap
+  description: 'Bug: 327672730'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/der-oid-macro
+  url: https://android.googlesource.com/platform/external/rust/crates/der-oid-macro
+  description: 'Bug: 193830683'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/derive-getters
+  url: https://android.googlesource.com/platform/external/rust/crates/derive-getters
+  description: 'Bug: 268355904'
+  rust_src_file_count: 14
+- name: platform/external/rust/crates/der_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/der_derive
+  description: 'Bug: 247784666'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/document-features
+  url: https://android.googlesource.com/platform/external/rust/crates/document-features
+  description: 'Bug: 257493879'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/der-parser
+  url: https://android.googlesource.com/platform/external/rust/crates/der-parser
+  description: 'Bug: 193830442'
+  rust_src_file_count: 24
+- name: platform/external/rust/crates/derive_arbitrary
+  url: https://android.googlesource.com/platform/external/rust/crates/derive_arbitrary
+  description: 'Bug: 174043884'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/downcast
+  url: https://android.googlesource.com/platform/external/rust/crates/downcast
+  description: 'Bug: 310600230'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/drm-ffi
+  url: https://android.googlesource.com/platform/external/rust/crates/drm-ffi
+  description: 'Bug: 328179939'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/enum-as-inner
+  url: https://android.googlesource.com/platform/external/rust/crates/enum-as-inner
+  description: 'Bug: 368527390'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/enumn
+  url: https://android.googlesource.com/platform/external/rust/crates/enumn
+  description: 'Bug: 209654193'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/env_logger
+  url: https://android.googlesource.com/platform/external/rust/crates/env_logger
+  description: 'Bug: 160234771'
+  rust_src_file_count: 25
+- name: platform/external/rust/crates/cesu8
+  url: https://android.googlesource.com/platform/external/rust/crates/cesu8
+  description: 'Bug: 195932560'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/drm
+  url: https://android.googlesource.com/platform/external/rust/crates/drm
+  description: 'Bug: 328180645'
+  rust_src_file_count: 23
+- name: platform/external/rust/crates/drm-fourcc
+  url: https://android.googlesource.com/platform/external/rust/crates/drm-fourcc
+  description: 'Bug: 328180685'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/epoll
+  url: https://android.googlesource.com/platform/external/rust/crates/epoll
+  description: 'Bug: 298811536'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/etherparse
+  url: https://android.googlesource.com/platform/external/rust/crates/etherparse
+  description: 'Bug: 367704208'
+  rust_src_file_count: 197
+- name: platform/external/rust/crates/errno
+  url: https://android.googlesource.com/platform/external/rust/crates/errno
+  description: 'Bug: 330140633'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/downcast-rs
+  url: https://android.googlesource.com/platform/external/rust/crates/downcast-rs
+  description: 'Bug: 172468915'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/fixedbitset
+  url: https://android.googlesource.com/platform/external/rust/crates/fixedbitset
+  description: 'Bug: 355336768'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/flagset
+  url: https://android.googlesource.com/platform/external/rust/crates/flagset
+  description: 'Bug: 249332380'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/equivalent
+  url: https://android.googlesource.com/platform/external/rust/crates/equivalent
+  description: 'Bug: 351861702'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/either
+  url: https://android.googlesource.com/platform/external/rust/crates/either
+  description: 'Bug: 179100382'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/fastrand
+  url: https://android.googlesource.com/platform/external/rust/crates/fastrand
+  description: 'Bug: 270156988'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/flate2
+  url: https://android.googlesource.com/platform/external/rust/crates/flate2
+  description: 'Bug: 188410695'
+  rust_src_file_count: 47
+- name: platform/external/rust/crates/foreign-types-shared
+  url: https://android.googlesource.com/platform/external/rust/crates/foreign-types-shared
+  description: 'Bug: 230519341'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/foreign-types
+  url: https://android.googlesource.com/platform/external/rust/crates/foreign-types
+  description: 'Bug: 230518947'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/fs-err
+  url: https://android.googlesource.com/platform/external/rust/crates/fs-err
+  description: 'Bug: 330683694'
+  rust_src_file_count: 15
+- name: platform/external/rust/crates/fallible-iterator
+  url: https://android.googlesource.com/platform/external/rust/crates/fallible-iterator
+  description: 'Bug: 159253212'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/fallible-streaming-iterator
+  url: https://android.googlesource.com/platform/external/rust/crates/fallible-streaming-iterator
+  description: 'Bug: 160020379'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/fragile
+  url: https://android.googlesource.com/platform/external/rust/crates/fragile
+  description: 'Bug: 310600229'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/fnv
+  url: https://android.googlesource.com/platform/external/rust/crates/fnv
+  description: 'Bug: 171338702'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/form_urlencoded
+  url: https://android.googlesource.com/platform/external/rust/crates/form_urlencoded
+  description: 'Bug: 175870104'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/futures-io
+  url: https://android.googlesource.com/platform/external/rust/crates/futures-io
+  description: 'Bug: 153208539'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/futures
+  url: https://android.googlesource.com/platform/external/rust/crates/futures
+  description: 'Bug: 152977305'
+  rust_src_file_count: 60
+- name: platform/external/rust/crates/futures-channel
+  url: https://android.googlesource.com/platform/external/rust/crates/futures-channel
+  description: 'Bug: 152990530'
+  rust_src_file_count: 12
+- name: platform/external/rust/crates/futures-core
+  url: https://android.googlesource.com/platform/external/rust/crates/futures-core
+  description: 'Bug: 152066961'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/futures-util
+  url: https://android.googlesource.com/platform/external/rust/crates/futures-util
+  description: 'Bug: 153207838'
+  rust_src_file_count: 184
+- name: platform/external/rust/crates/futures-macro
+  url: https://android.googlesource.com/platform/external/rust/crates/futures-macro
+  description: 'Bug: 152066863'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/fxhash
+  url: https://android.googlesource.com/platform/external/rust/crates/fxhash
+  description: 'Bug: 239855775'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/gbm
+  url: https://android.googlesource.com/platform/external/rust/crates/gbm
+  description: 'Bug: 325953018'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/futures-sink
+  url: https://android.googlesource.com/platform/external/rust/crates/futures-sink
+  description: 'Bug: 152440609'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/futures-task
+  url: https://android.googlesource.com/platform/external/rust/crates/futures-task
+  description: 'Bug: 152975315'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/gdbstub_arch
+  url: https://android.googlesource.com/platform/external/rust/crates/gdbstub_arch
+  description: 'Bug: 195306451'
+  rust_src_file_count: 30
+- name: platform/external/rust/crates/futures-executor
+  url: https://android.googlesource.com/platform/external/rust/crates/futures-executor
+  description: 'Bug: 152440042'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/futures-test
+  url: https://android.googlesource.com/platform/external/rust/crates/futures-test
+  description: ''
+  rust_src_file_count: 20
+- name: platform/external/rust/crates/googletest_macro
+  url: https://android.googlesource.com/platform/external/rust/crates/googletest_macro
+  description: 'Bug: 295871546'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/glam
+  url: https://android.googlesource.com/platform/external/rust/crates/glam
+  description: 'Bug: 229873329'
+  rust_src_file_count: 176
+- name: platform/external/rust/crates/getrandom
+  url: https://android.googlesource.com/platform/external/rust/crates/getrandom
+  description: 'Bug: 159928678'
+  rust_src_file_count: 33
+- name: platform/external/rust/crates/grpcio
+  url: https://android.googlesource.com/platform/external/rust/crates/grpcio
+  description: 'Bug: 170749314'
+  rust_src_file_count: 23
+- name: platform/external/rust/crates/gpio-cdev
+  url: https://android.googlesource.com/platform/external/rust/crates/gpio-cdev
+  description: 'Bug: 311447928'
+  rust_src_file_count: 15
+- name: platform/external/rust/crates/googletest
+  url: https://android.googlesource.com/platform/external/rust/crates/googletest
+  description: 'Bug: 292458387'
+  rust_src_file_count: 70
+- name: platform/external/rust/crates/glob
+  url: https://android.googlesource.com/platform/external/rust/crates/glob
+  description: 'Bug: 153119942'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/half
+  url: https://android.googlesource.com/platform/external/rust/crates/half
+  description: 'Bug: 179312762'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/gdbstub
+  url: https://android.googlesource.com/platform/external/rust/crates/gdbstub
+  description: 'Bug: 182593751'
+  rust_src_file_count: 145
+- name: platform/external/rust/crates/hashbrown
+  url: https://android.googlesource.com/platform/external/rust/crates/hashbrown
+  description: 'Bug: 172365435'
+  rust_src_file_count: 24
+- name: platform/external/rust/crates/hashlink
+  url: https://android.googlesource.com/platform/external/rust/crates/hashlink
+  description: 'Bug: 172670408'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/hex
+  url: https://android.googlesource.com/platform/external/rust/crates/hex
+  description: 'Bug: 249495873'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/h2
+  url: https://android.googlesource.com/platform/external/rust/crates/h2
+  description: 'Bug: 342500298'
+  rust_src_file_count: 55
+- name: platform/external/rust/crates/hickory-proto
+  url: https://android.googlesource.com/platform/external/rust/crates/hickory-proto
+  description: 'Bug: 368528791'
+  rust_src_file_count: 155
+- name: platform/external/rust/crates/grpcio-compiler
+  url: https://android.googlesource.com/platform/external/rust/crates/grpcio-compiler
+  description: 'Bug: 172247654'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/hyper-timeout
+  url: https://android.googlesource.com/platform/external/rust/crates/hyper-timeout
+  description: 'Bug: 342500895'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/hyper
+  url: https://android.googlesource.com/platform/external/rust/crates/hyper
+  description: 'Bug: 342499482'
+  rust_src_file_count: 71
+- name: platform/external/rust/crates/hound
+  url: https://android.googlesource.com/platform/external/rust/crates/hound
+  description: 'Bug: 355564847'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/http-body
+  url: https://android.googlesource.com/platform/external/rust/crates/http-body
+  description: 'Bug: 339172934'
+  rust_src_file_count: 12
+- name: platform/external/rust/crates/httpdate
+  url: https://android.googlesource.com/platform/external/rust/crates/httpdate
+  description: 'Bug: 339187656'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/heck
+  url: https://android.googlesource.com/platform/external/rust/crates/heck
+  description: 'Bug: 156793009'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/ident_case
+  url: https://android.googlesource.com/platform/external/rust/crates/ident_case
+  description: 'Bug: 330678664'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/httparse
+  url: https://android.googlesource.com/platform/external/rust/crates/httparse
+  description: 'Bug: 288308432'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/http
+  url: https://android.googlesource.com/platform/external/rust/crates/http
+  description: 'Bug: 288310258'
+  rust_src_file_count: 24
+- name: platform/external/rust/crates/inotify-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/inotify-sys
+  description: 'Bug: 374130642'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/indexmap
+  url: https://android.googlesource.com/platform/external/rust/crates/indexmap
+  description: 'Bug: 239607229'
+  rust_src_file_count: 23
+- name: platform/external/rust/crates/instant
+  url: https://android.googlesource.com/platform/external/rust/crates/instant
+  description: 'Bug: 171384879'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/idna
+  url: https://android.googlesource.com/platform/external/rust/crates/idna
+  description: 'Bug: 175870120'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/jni-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/jni-sys
+  description: 'Bug: 195931823'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/ipnet
+  url: https://android.googlesource.com/platform/external/rust/crates/ipnet
+  description: 'Bug: 368527143'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/inotify
+  url: https://android.googlesource.com/platform/external/rust/crates/inotify
+  description: 'Bug: 374129524'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/itoa
+  url: https://android.googlesource.com/platform/external/rust/crates/itoa
+  description: 'Bug: 166632747'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/jni
+  url: https://android.googlesource.com/platform/external/rust/crates/jni
+  description: 'Bug: 197264385'
+  rust_src_file_count: 120
+- name: platform/external/rust/android-crates-io
+  url: https://android.googlesource.com/platform/external/rust/android-crates-io
+  description: 'Bug: 303584371'
+  rust_src_file_count: 10938
+- name: platform/external/rust/crates/lazy_static
+  url: https://android.googlesource.com/platform/external/rust/crates/lazy_static
+  description: 'Bug: 154052335'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/kernlog
+  url: https://android.googlesource.com/platform/external/rust/crates/kernlog
+  description: 'Bug: 191700800'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/intrusive-collections
+  url: https://android.googlesource.com/platform/external/rust/crates/intrusive-collections
+  description: 'Bug: 175140903'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/lazycell
+  url: https://android.googlesource.com/platform/external/rust/crates/lazycell
+  description: 'Bug: 153120134'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/libbpf-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/libbpf-sys
+  description: 'Bug: 360132854'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/libbpf-rs
+  url: https://android.googlesource.com/platform/external/rust/crates/libbpf-rs
+  description: 'Bug: 360116764'
+  rust_src_file_count: 25
+- name: platform/external/rust/crates/libtest-mimic
+  url: https://android.googlesource.com/platform/external/rust/crates/libtest-mimic
+  description: 'Bug: 273953205'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/libfuzzer-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/libfuzzer-sys
+  description: 'Bug: 172670888'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/linkme
+  url: https://android.googlesource.com/platform/external/rust/crates/linkme
+  description: 'Bug: 285067342'
+  rust_src_file_count: 17
+- name: platform/external/rust/crates/itertools
+  url: https://android.googlesource.com/platform/external/rust/crates/itertools
+  description: 'Bug: 179100895'
+  rust_src_file_count: 69
+- name: platform/external/rust/crates/libusb1-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/libusb1-sys
+  description: 'Bug: 376649133'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/linked-hash-map
+  url: https://android.googlesource.com/platform/external/rust/crates/linked-hash-map
+  description: 'Bug: 160020666'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/grpcio-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/grpcio-sys
+  description: 'Bug: 170765308'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/libloading
+  url: https://android.googlesource.com/platform/external/rust/crates/libloading
+  description: 'Bug: 154099606'
+  rust_src_file_count: 15
+- name: platform/external/rust/crates/libsqlite3-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/libsqlite3-sys
+  description: 'Bug: 161151380'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/lz4_flex
+  url: https://android.googlesource.com/platform/external/rust/crates/lz4_flex
+  description: 'Bug: 319233671'
+  rust_src_file_count: 13
+- name: platform/external/rust/crates/log
+  url: https://android.googlesource.com/platform/external/rust/crates/log
+  description: 'Bug: 153120834'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/linkme-impl
+  url: https://android.googlesource.com/platform/external/rust/crates/linkme-impl
+  description: 'Bug: 285065716'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/lru-cache
+  url: https://android.googlesource.com/platform/external/rust/crates/lru-cache
+  description: 'Bug: 159254122'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/macaddr
+  url: https://android.googlesource.com/platform/external/rust/crates/macaddr
+  description: 'Bug: 182952190'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/litrs
+  url: https://android.googlesource.com/platform/external/rust/crates/litrs
+  description: 'Bug: 257493521'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/libm
+  url: https://android.googlesource.com/platform/external/rust/crates/libm
+  description: 'Bug: 174788271'
+  rust_src_file_count: 123
+- name: platform/external/rust/crates/maplit
+  url: https://android.googlesource.com/platform/external/rust/crates/maplit
+  description: 'Bug: 374957872'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/libz-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/libz-sys
+  description: 'Bug: 170759415'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/maybe-async
+  url: https://android.googlesource.com/platform/external/rust/crates/maybe-async
+  description: 'Bug: 328419425'
+  rust_src_file_count: 16
+- name: platform/external/rust/crates/matchit
+  url: https://android.googlesource.com/platform/external/rust/crates/matchit
+  description: 'Bug: 342499478'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/lock_api
+  url: https://android.googlesource.com/platform/external/rust/crates/lock_api
+  description: 'Bug: 170749427'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/managed
+  url: https://android.googlesource.com/platform/external/rust/crates/managed
+  description: 'Bug: 182523976'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/libc
+  url: https://android.googlesource.com/platform/external/rust/crates/libc
+  description: 'Bug: 135536375'
+  rust_src_file_count: 237
+- name: platform/external/rust/crates/memoffset
+  url: https://android.googlesource.com/platform/external/rust/crates/memoffset
+  description: 'Bug: 175139220'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/merge_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/merge_derive
+  description: 'Bug: 261876557'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/mime
+  url: https://android.googlesource.com/platform/external/rust/crates/mime
+  description: 'Bug: 339173032'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/mls-rs-codec-derive
+  url: https://android.googlesource.com/platform/external/rust/crates/mls-rs-codec-derive
+  description: 'Bug: 328421132'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/mls-rs-core
+  url: https://android.googlesource.com/platform/external/rust/crates/mls-rs-core
+  description: 'Bug: 328421156'
+  rust_src_file_count: 23
+- name: platform/external/rust/crates/mockall
+  url: https://android.googlesource.com/platform/external/rust/crates/mockall
+  description: 'Bug: 310600239'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/mls-rs-crypto-traits
+  url: https://android.googlesource.com/platform/external/rust/crates/mls-rs-crypto-traits
+  description: 'Bug: 335422504'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/minimal-lexical
+  url: https://android.googlesource.com/platform/external/rust/crates/minimal-lexical
+  description: 'Bug: 201358474'
+  rust_src_file_count: 31
+- name: platform/external/rust/crates/mls-rs-uniffi
+  url: https://android.googlesource.com/platform/external/rust/crates/mls-rs-uniffi
+  description: 'Bug: 336992562'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/mls-rs
+  url: https://android.googlesource.com/platform/external/rust/crates/mls-rs
+  description: 'Bug: 330708876'
+  rust_src_file_count: 108
+- name: platform/external/rust/crates/num_enum
+  url: https://android.googlesource.com/platform/external/rust/crates/num_enum
+  description: 'Bug: 360132122'
+  rust_src_file_count: 45
+- name: platform/external/rust/crates/num_enum_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/num_enum_derive
+  description: 'Bug: 360132331'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/num_cpus
+  url: https://android.googlesource.com/platform/external/rust/crates/num_cpus
+  description: 'Bug: 171337558'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/no-panic
+  url: https://android.googlesource.com/platform/external/rust/crates/no-panic
+  description: 'Bug: 175299806'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/nom
+  url: https://android.googlesource.com/platform/external/rust/crates/nom
+  description: 'Bug: 153109021'
+  rust_src_file_count: 43
+- name: platform/external/rust/crates/octets
+  url: https://android.googlesource.com/platform/external/rust/crates/octets
+  description: 'Bug: 246974262'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/num-derive
+  url: https://android.googlesource.com/platform/external/rust/crates/num-derive
+  description: 'Bug: 162331178'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/oid-registry
+  url: https://android.googlesource.com/platform/external/rust/crates/oid-registry
+  description: 'Bug: 194414278'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/num-bigint
+  url: https://android.googlesource.com/platform/external/rust/crates/num-bigint
+  description: 'Bug: 193829374'
+  rust_src_file_count: 45
+- name: platform/external/rust/crates/os_str_bytes
+  url: https://android.googlesource.com/platform/external/rust/crates/os_str_bytes
+  description: 'Bug: 238905913'
+  rust_src_file_count: 15
+- name: platform/external/rust/crates/p9
+  url: https://android.googlesource.com/platform/external/rust/crates/p9
+  description: 'Bug: 317282512'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/paste-impl
+  url: https://android.googlesource.com/platform/external/rust/crates/paste-impl
+  description: 'Bug: 152401996'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/parking_lot
+  url: https://android.googlesource.com/platform/external/rust/crates/parking_lot
+  description: 'Bug: 170684269'
+  rust_src_file_count: 14
+- name: platform/external/rust/crates/parking_lot_core
+  url: https://android.googlesource.com/platform/external/rust/crates/parking_lot_core
+  description: 'Bug: 170684118'
+  rust_src_file_count: 18
+- name: platform/external/rust/crates/percore
+  url: https://android.googlesource.com/platform/external/rust/crates/percore
+  description: 'Bug: 354713044'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/pdl-compiler
+  url: https://android.googlesource.com/platform/external/rust/crates/pdl-compiler
+  description: 'Bug: 283153347'
+  rust_src_file_count: 202
+- name: platform/external/rust/crates/pest_meta
+  url: https://android.googlesource.com/platform/external/rust/crates/pest_meta
+  description: 'Bug: 218414352'
+  rust_src_file_count: 13
+- name: platform/external/rust/crates/pest_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/pest_derive
+  description: 'Bug: 218410551'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/pin-project-internal
+  url: https://android.googlesource.com/platform/external/rust/crates/pin-project-internal
+  description: 'Bug: 156522606'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/pin-utils
+  url: https://android.googlesource.com/platform/external/rust/crates/pin-utils
+  description: 'Bug: 152066488'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/pin-project-lite
+  url: https://android.googlesource.com/platform/external/rust/crates/pin-project-lite
+  description: 'Bug: 169959534'
+  rust_src_file_count: 56
+- name: platform/external/rust/crates/poll_token_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/poll_token_derive
+  description: 'Bug: 369747276'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/plotters
+  url: https://android.googlesource.com/platform/external/rust/crates/plotters
+  description: 'Bug: 179101787'
+  rust_src_file_count: 105
+- name: platform/external/rust/crates/plotters-svg
+  url: https://android.googlesource.com/platform/external/rust/crates/plotters-svg
+  description: 'Bug: 179320439'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/predicates-core
+  url: https://android.googlesource.com/platform/external/rust/crates/predicates-core
+  description: 'Bug: 310599818'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/ppv-lite86
+  url: https://android.googlesource.com/platform/external/rust/crates/ppv-lite86
+  description: 'Bug: 159928773'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/prettyplease
+  url: https://android.googlesource.com/platform/external/rust/crates/prettyplease
+  description: 'Bug: 277749123'
+  rust_src_file_count: 24
+- name: platform/external/rust/crates/petgraph
+  url: https://android.googlesource.com/platform/external/rust/crates/petgraph
+  description: 'Bug: 354605566'
+  rust_src_file_count: 79
+- name: platform/external/rust/crates/predicates
+  url: https://android.googlesource.com/platform/external/rust/crates/predicates
+  description: 'Bug: 310602145'
+  rust_src_file_count: 25
+- name: platform/external/rust/crates/plotters-backend
+  url: https://android.googlesource.com/platform/external/rust/crates/plotters-backend
+  description: 'Bug: 179213057'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/predicates-tree
+  url: https://android.googlesource.com/platform/external/rust/crates/predicates-tree
+  description: 'Bug: 310599486'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/portable-atomic
+  url: https://android.googlesource.com/platform/external/rust/crates/portable-atomic
+  description: 'Bug: 368527955'
+  rust_src_file_count: 48
+- name: platform/external/rust/crates/proc-macro-hack
+  url: https://android.googlesource.com/platform/external/rust/crates/proc-macro-hack
+  description: 'Bug: 152069661'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/proc-macro2
+  url: https://android.googlesource.com/platform/external/rust/crates/proc-macro2
+  description: 'Bug: 139154926'
+  rust_src_file_count: 16
+- name: platform/external/rust/crates/proc-macro-error
+  url: https://android.googlesource.com/platform/external/rust/crates/proc-macro-error
+  description: 'Bug: 156897442'
+  rust_src_file_count: 26
+- name: platform/external/rust/crates/protobuf-codegen
+  url: https://android.googlesource.com/platform/external/rust/crates/protobuf-codegen
+  description: 'Bug: 158620710'
+  rust_src_file_count: 70
+- name: platform/external/rust/crates/protobuf
+  url: https://android.googlesource.com/platform/external/rust/crates/protobuf
+  description: 'Bug: 158620525'
+  rust_src_file_count: 201
+- name: platform/external/rust/crates/proc-macro-error-attr
+  url: https://android.googlesource.com/platform/external/rust/crates/proc-macro-error-attr
+  description: 'Bug: 156527773'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/protobuf-parse
+  url: https://android.googlesource.com/platform/external/rust/crates/protobuf-parse
+  description: 'Bug: 271842738'
+  rust_src_file_count: 28
+- name: platform/external/rust/crates/proc-macro-nested
+  url: https://android.googlesource.com/platform/external/rust/crates/proc-macro-nested
+  description: 'Bug: 152624124'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/protobuf-support
+  url: https://android.googlesource.com/platform/external/rust/crates/protobuf-support
+  description: 'Bug: 271172320'
+  rust_src_file_count: 15
+- name: platform/external/rust/crates/ptr_meta
+  url: https://android.googlesource.com/platform/external/rust/crates/ptr_meta
+  description: 'Bug: 375626569'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/psci
+  url: https://android.googlesource.com/platform/external/rust/crates/psci
+  description: 'Bug: 230395334'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/quickcheck
+  url: https://android.googlesource.com/platform/external/rust/crates/quickcheck
+  description: 'Bug: 204203858'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/ptr_meta_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/ptr_meta_derive
+  description: 'Bug: 377556466'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/protobuf-json-mapping
+  url: https://android.googlesource.com/platform/external/rust/crates/protobuf-json-mapping
+  description: 'Bug: 275568385'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/rand_core
+  url: https://android.googlesource.com/platform/external/rust/crates/rand_core
+  description: 'Bug: 160014483'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/rand_xorshift
+  url: https://android.googlesource.com/platform/external/rust/crates/rand_xorshift
+  description: 'Bug: 175139679'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/rand_chacha
+  url: https://android.googlesource.com/platform/external/rust/crates/rand_chacha
+  description: 'Bug: 160625211'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/rand
+  url: https://android.googlesource.com/platform/external/rust/crates/rand
+  description: 'Bug: 160235363'
+  rust_src_file_count: 26
+- name: platform/external/rust/crates/quote
+  url: https://android.googlesource.com/platform/external/rust/crates/quote
+  description: 'Bug: 138723826'
+  rust_src_file_count: 16
+- name: platform/external/rust/crates/quiche
+  url: https://android.googlesource.com/platform/external/rust/crates/quiche
+  description: 'Bug: 174788690'
+  rust_src_file_count: 43
+- name: platform/external/rust/crates/rayon-core
+  url: https://android.googlesource.com/platform/external/rust/crates/rayon-core
+  description: 'Bug: 179103584'
+  rust_src_file_count: 34
+- name: platform/external/rust/crates/regex-automata
+  url: https://android.googlesource.com/platform/external/rust/crates/regex-automata
+  description: 'Bug: 179313537'
+  rust_src_file_count: 23
+- name: platform/external/rust/crates/remain
+  url: https://android.googlesource.com/platform/external/rust/crates/remain
+  description: 'Bug: 135605033'
+  rust_src_file_count: 25
+- name: platform/external/rust/crates/rayon
+  url: https://android.googlesource.com/platform/external/rust/crates/rayon
+  description: 'Bug: 179102480'
+  rust_src_file_count: 113
+- name: platform/external/rust/crates/rustc-demangle
+  url: https://android.googlesource.com/platform/external/rust/crates/rustc-demangle
+  description: 'Bug: 183436575'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/rusb
+  url: https://android.googlesource.com/platform/external/rust/crates/rusb
+  description: 'Bug: 376647800'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/regex-syntax
+  url: https://android.googlesource.com/platform/external/rust/crates/regex-syntax
+  description: 'Bug: 154051565'
+  rust_src_file_count: 32
+- name: platform/external/rust/crates/regex
+  url: https://android.googlesource.com/platform/external/rust/crates/regex
+  description: 'Bug: 154052103'
+  rust_src_file_count: 63
+- name: platform/external/rust/crates/rustc-demangle-capi
+  url: https://android.googlesource.com/platform/external/rust/crates/rustc-demangle-capi
+  description: 'Bug: 183698465'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/rustc-hash
+  url: https://android.googlesource.com/platform/external/rust/crates/rustc-hash
+  description: 'Bug: 153120147'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/remove_dir_all
+  url: https://android.googlesource.com/platform/external/rust/crates/remove_dir_all
+  description: 'Bug: 204476375'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/rusticata-macros
+  url: https://android.googlesource.com/platform/external/rust/crates/rusticata-macros
+  description: 'Bug: 193828755'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/rusqlite
+  url: https://android.googlesource.com/platform/external/rust/crates/rusqlite
+  description: 'Bug: 160144460'
+  rust_src_file_count: 49
+- name: platform/external/rust/crates/rust-stemmers
+  url: https://android.googlesource.com/platform/external/rust/crates/rust-stemmers
+  description: 'Bug: 330901042'
+  rust_src_file_count: 24
+- name: platform/external/rust/crates/rustversion
+  url: https://android.googlesource.com/platform/external/rust/crates/rustversion
+  description: 'Bug: 180113514'
+  rust_src_file_count: 24
+- name: platform/external/rust/crates/rustix
+  url: https://android.googlesource.com/platform/external/rust/crates/rustix
+  description: 'Bug: 328180148'
+  rust_src_file_count: 306
+- name: platform/external/rust/crates/ryu
+  url: https://android.googlesource.com/platform/external/rust/crates/ryu
+  description: 'Bug: 166474546'
+  rust_src_file_count: 27
+- name: platform/external/rust/crates/semver
+  url: https://android.googlesource.com/platform/external/rust/crates/semver
+  description: 'Bug: 220164656'
+  rust_src_file_count: 17
+- name: kernel/common
+  url: https://android.googlesource.com/kernel/common
+  description: Common Android Kernel Tree
+  rust_src_file_count: 103
+- name: platform/external/rust/crates/serde_cbor
+  url: https://android.googlesource.com/platform/external/rust/crates/serde_cbor
+  description: 'Bug: 179213909'
+  rust_src_file_count: 20
+- name: platform/external/rust/crates/sec1
+  url: https://android.googlesource.com/platform/external/rust/crates/sec1
+  description: 'Bug: 249332382'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/serde
+  url: https://android.googlesource.com/platform/external/rust/crates/serde
+  description: 'Bug: 166474173'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/scopeguard
+  url: https://android.googlesource.com/platform/external/rust/crates/scopeguard
+  description: 'Bug: 170752694'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/serde_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/serde_derive
+  description: 'Bug: 175126709'
+  rust_src_file_count: 19
+- name: platform/external/rust/crates/same-file
+  url: https://android.googlesource.com/platform/external/rust/crates/same-file
+  description: 'Bug: 179747308'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/serde_spanned
+  url: https://android.googlesource.com/platform/external/rust/crates/serde_spanned
+  description: 'Bug: 298684560'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/serde_test
+  url: https://android.googlesource.com/platform/external/rust/crates/serde_test
+  description: 'Bug: 175868957'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/serde_json
+  url: https://android.googlesource.com/platform/external/rust/crates/serde_json
+  description: 'Bug: 166474422'
+  rust_src_file_count: 69
+- name: platform/external/rust/crates/serde-xml-rs
+  url: https://android.googlesource.com/platform/external/rust/crates/serde-xml-rs
+  description: 'Bug: 193649110'
+  rust_src_file_count: 18
+- name: platform/external/rust/crates/serde_yaml
+  url: https://android.googlesource.com/platform/external/rust/crates/serde_yaml
+  description: 'Bug: 278264257'
+  rust_src_file_count: 28
+- name: platform/external/rust/crates/siphasher
+  url: https://android.googlesource.com/platform/external/rust/crates/siphasher
+  description: 'Bug: 330683646'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/sharded-slab
+  url: https://android.googlesource.com/platform/external/rust/crates/sharded-slab
+  description: 'Bug: 294544000'
+  rust_src_file_count: 20
+- name: platform/external/rust/crates/shared_library
+  url: https://android.googlesource.com/platform/external/rust/crates/shared_library
+  description: 'Bug: 190426302'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/slab
+  url: https://android.googlesource.com/platform/external/rust/crates/slab
+  description: 'Bug: 153207806'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/shared_child
+  url: https://android.googlesource.com/platform/external/rust/crates/shared_child
+  description: 'Bug: 184003702'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/smccc
+  url: https://android.googlesource.com/platform/external/rust/crates/smccc
+  description: 'Bug: 284386483'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/socket2
+  url: https://android.googlesource.com/platform/external/rust/crates/socket2
+  description: 'Bug: 264689401'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/shlex
+  url: https://android.googlesource.com/platform/external/rust/crates/shlex
+  description: 'Bug: 154343409'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/smoltcp
+  url: https://android.googlesource.com/platform/external/rust/crates/smoltcp
+  description: 'Bug: 324917857'
+  rust_src_file_count: 104
+- name: platform/external/rust/crates/smallvec
+  url: https://android.googlesource.com/platform/external/rust/crates/smallvec
+  description: 'Bug: 159603647'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/standback
+  url: https://android.googlesource.com/platform/external/rust/crates/standback
+  description: 'Bug: 171359152'
+  rust_src_file_count: 23
+- name: platform/external/rust/crates/static_assertions
+  url: https://android.googlesource.com/platform/external/rust/crates/static_assertions
+  description: 'Bug: 257491913'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/strsim
+  url: https://android.googlesource.com/platform/external/rust/crates/strsim
+  description: 'Bug: 328419676'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/spki
+  url: https://android.googlesource.com/platform/external/rust/crates/spki
+  description: 'Bug: 249338552'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/spin
+  url: https://android.googlesource.com/platform/external/rust/crates/spin
+  description: 'Bug: 174788900'
+  rust_src_file_count: 12
+- name: platform/external/rust/crates/strum
+  url: https://android.googlesource.com/platform/external/rust/crates/strum
+  description: 'Bug: 319324143'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/strum_macros
+  url: https://android.googlesource.com/platform/external/rust/crates/strum_macros
+  description: 'Bug: 319324325'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/structopt-derive
+  url: https://android.googlesource.com/platform/external/rust/crates/structopt-derive
+  description: 'Bug: 156794060'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/sync_wrapper
+  url: https://android.googlesource.com/platform/external/rust/crates/sync_wrapper
+  description: 'Bug: 342499271'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/syn
+  url: https://android.googlesource.com/platform/external/rust/crates/syn
+  description: 'Bug: 138724348'
+  rust_src_file_count: 91
+- name: platform/external/rust/crates/syn-mid
+  url: https://android.googlesource.com/platform/external/rust/crates/syn-mid
+  description: 'Bug: 157243205'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/terminal-size
+  url: https://android.googlesource.com/platform/external/rust/crates/terminal-size
+  description: 'Bug: 229870453'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/synstructure
+  url: https://android.googlesource.com/platform/external/rust/crates/synstructure
+  description: 'Bug: 247782683'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/structopt
+  url: https://android.googlesource.com/platform/external/rust/crates/structopt
+  description: 'Bug: 156792573'
+  rust_src_file_count: 82
+- name: platform/external/rust/crates/threadpool
+  url: https://android.googlesource.com/platform/external/rust/crates/threadpool
+  description: 'Bug: 279644798'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/tempfile
+  url: https://android.googlesource.com/platform/external/rust/crates/tempfile
+  description: 'Bug: 204476125'
+  rust_src_file_count: 14
+- name: platform/external/rust/crates/thiserror
+  url: https://android.googlesource.com/platform/external/rust/crates/thiserror
+  description: 'Bug: 157553121'
+  rust_src_file_count: 39
+- name: platform/external/rust/crates/thiserror-impl
+  url: https://android.googlesource.com/platform/external/rust/crates/thiserror-impl
+  description: 'Bug: 157243935'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/thread_local
+  url: https://android.googlesource.com/platform/external/rust/crates/thread_local
+  description: 'Bug: 153119948'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/termtree
+  url: https://android.googlesource.com/platform/external/rust/crates/termtree
+  description: 'Bug: 310599809'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/ring
+  url: https://android.googlesource.com/platform/external/rust/crates/ring
+  description: 'Bug: 174788910'
+  rust_src_file_count: 103
+- name: platform/external/rust/crates/termcolor
+  url: https://android.googlesource.com/platform/external/rust/crates/termcolor
+  description: 'Bug: 157552365'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/textwrap
+  url: https://android.googlesource.com/platform/external/rust/crates/textwrap
+  description: 'Bug: 157550865'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/tikv-jemallocator
+  url: https://android.googlesource.com/platform/external/rust/crates/tikv-jemallocator
+  description: 'Bug: 340345793'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/time-macros-impl
+  url: https://android.googlesource.com/platform/external/rust/crates/time-macros-impl
+  description: 'Bug: 171359136'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/time
+  url: https://android.googlesource.com/platform/external/rust/crates/time
+  description: 'Bug: 160020935'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/time-macros
+  url: https://android.googlesource.com/platform/external/rust/crates/time-macros
+  description: 'Bug: 171359410'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/tinyjson
+  url: https://android.googlesource.com/platform/external/rust/crates/tinyjson
+  description: 'Bug: 272102666'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/tock-registers
+  url: https://android.googlesource.com/platform/external/rust/crates/tock-registers
+  description: 'Bug: 274522181'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/tinyvec_macros
+  url: https://android.googlesource.com/platform/external/rust/crates/tinyvec_macros
+  description: 'Bug: 175870075'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/tokio-io-timeout
+  url: https://android.googlesource.com/platform/external/rust/crates/tokio-io-timeout
+  description: 'Bug: 342500538'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/tinyvec
+  url: https://android.googlesource.com/platform/external/rust/crates/tinyvec
+  description: 'Bug: 175869277'
+  rust_src_file_count: 13
+- name: platform/external/rust/crates/tinytemplate
+  url: https://android.googlesource.com/platform/external/rust/crates/tinytemplate
+  description: 'Bug: 181073064'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/tikv-jemalloc-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/tikv-jemalloc-sys
+  description: 'Bug: 340345454'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/tokio-openssl
+  url: https://android.googlesource.com/platform/external/rust/crates/tokio-openssl
+  description: 'Bug: 373353036'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/tokio-macros
+  url: https://android.googlesource.com/platform/external/rust/crates/tokio-macros
+  description: 'Bug: 171510583'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/toml_datetime
+  url: https://android.googlesource.com/platform/external/rust/crates/toml_datetime
+  description: 'Bug: 298813764'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/toml
+  url: https://android.googlesource.com/platform/external/rust/crates/toml
+  description: 'Bug: 298813871'
+  rust_src_file_count: 29
+- name: platform/external/rust/crates/tokio
+  url: https://android.googlesource.com/platform/external/rust/crates/tokio
+  description: 'Bug: 169870487'
+  rust_src_file_count: 491
+- name: platform/external/rust/crates/tower-layer
+  url: https://android.googlesource.com/platform/external/rust/crates/tower-layer
+  description: 'Bug: 339177789'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/tokio-stream
+  url: https://android.googlesource.com/platform/external/rust/crates/tokio-stream
+  description: 'Bug: 178378678'
+  rust_src_file_count: 61
+- name: platform/external/rust/crates/tower-service
+  url: https://android.googlesource.com/platform/external/rust/crates/tower-service
+  description: 'Bug: 339177916'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/tower
+  url: https://android.googlesource.com/platform/external/rust/crates/tower
+  description: 'Bug: 339186158'
+  rust_src_file_count: 120
+- name: platform/external/rust/crates/tokio-test
+  url: https://android.googlesource.com/platform/external/rust/crates/tokio-test
+  description: 'Bug: 180535998'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/tokio-util
+  url: https://android.googlesource.com/platform/external/rust/crates/tokio-util
+  description: 'Bug: 274643713'
+  rust_src_file_count: 74
+- name: platform/external/rust/crates/tonic
+  url: https://android.googlesource.com/platform/external/rust/crates/tonic
+  description: 'Bug: 336507197'
+  rust_src_file_count: 61
+- name: platform/external/rust/crates/tracing-attributes
+  url: https://android.googlesource.com/platform/external/rust/crates/tracing-attributes
+  description: 'Bug: 274656617'
+  rust_src_file_count: 17
+- name: platform/external/rust/crates/toml_edit
+  url: https://android.googlesource.com/platform/external/rust/crates/toml_edit
+  description: 'Bug: 298813159'
+  rust_src_file_count: 58
+- name: platform/external/rust/crates/try-lock
+  url: https://android.googlesource.com/platform/external/rust/crates/try-lock
+  description: 'Bug: 339188364'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/ucs2
+  url: https://android.googlesource.com/platform/external/rust/crates/ucs2
+  description: 'Bug: 375623775'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/tracing
+  url: https://android.googlesource.com/platform/external/rust/crates/tracing
+  description: 'Bug: 274658919'
+  rust_src_file_count: 37
+- name: platform/external/rust/crates/ucd-trie
+  url: https://android.googlesource.com/platform/external/rust/crates/ucd-trie
+  description: 'Bug: 218275123'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/twox-hash
+  url: https://android.googlesource.com/platform/external/rust/crates/twox-hash
+  description: 'Bug: 319233932'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/tungstenite
+  url: https://android.googlesource.com/platform/external/rust/crates/tungstenite
+  description: 'Bug: 288303428'
+  rust_src_file_count: 27
+- name: platform/external/rust/crates/uefi-macros
+  url: https://android.googlesource.com/platform/external/rust/crates/uefi-macros
+  description: 'Bug: 375626990'
+  rust_src_file_count: 12
+- name: platform/external/rust/crates/uguid
+  url: https://android.googlesource.com/platform/external/rust/crates/uguid
+  description: 'Bug: 375625529'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/tracing-core
+  url: https://android.googlesource.com/platform/external/rust/crates/tracing-core
+  description: 'Bug: 274656248'
+  rust_src_file_count: 19
+- name: platform/external/rust/crates/tracing-subscriber
+  url: https://android.googlesource.com/platform/external/rust/crates/tracing-subscriber
+  description: 'Bug: 294544316'
+  rust_src_file_count: 75
+- name: platform/external/rust/crates/uefi-raw
+  url: https://android.googlesource.com/platform/external/rust/crates/uefi-raw
+  description: 'Bug: 375626799'
+  rust_src_file_count: 34
+- name: platform/external/rust/crates/unicode-bidi
+  url: https://android.googlesource.com/platform/external/rust/crates/unicode-bidi
+  description: 'Bug: 175869250'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/uefi
+  url: https://android.googlesource.com/platform/external/rust/crates/uefi
+  description: 'Bug: 375627466'
+  rust_src_file_count: 90
+- name: platform/external/rust/crates/unicode-ident
+  url: https://android.googlesource.com/platform/external/rust/crates/unicode-ident
+  description: 'Bug: 238351302'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/uniffi
+  url: https://android.googlesource.com/platform/external/rust/crates/uniffi
+  description: 'Bug: 330713317'
+  rust_src_file_count: 4
+- name: platform/external/rust/crates/unicode-xid
+  url: https://android.googlesource.com/platform/external/rust/crates/unicode-xid
+  description: 'Bug: 139060369'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/uniffi_meta
+  url: https://android.googlesource.com/platform/external/rust/crates/uniffi_meta
+  description: 'Bug: 330712398'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/unicode-normalization
+  url: https://android.googlesource.com/platform/external/rust/crates/unicode-normalization
+  description: 'Bug: 175870123'
+  rust_src_file_count: 14
+- name: platform/external/rust/crates/uniffi_core
+  url: https://android.googlesource.com/platform/external/rust/crates/uniffi_core
+  description: 'Bug: 330712502'
+  rust_src_file_count: 18
+- name: platform/external/rust/crates/uniffi_macros
+  url: https://android.googlesource.com/platform/external/rust/crates/uniffi_macros
+  description: 'Bug: 330712798'
+  rust_src_file_count: 18
+- name: platform/external/rust/crates/uniffi_checksum_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/uniffi_checksum_derive
+  description: 'Bug: 330712489'
+  rust_src_file_count: 1
+- name: platform/external/rust/crates/unicode-segmentation
+  url: https://android.googlesource.com/platform/external/rust/crates/unicode-segmentation
+  description: 'Bug: 157462312'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/unicode-width
+  url: https://android.googlesource.com/platform/external/rust/crates/unicode-width
+  description: 'Bug: 157554429'
+  rust_src_file_count: 3
+- name: platform/external/rust/crates/unsafe-libyaml
+  url: https://android.googlesource.com/platform/external/rust/crates/unsafe-libyaml
+  description: 'Bug: 276735045'
+  rust_src_file_count: 20
+- name: platform/external/rust/crates/utf-8
+  url: https://android.googlesource.com/platform/external/rust/crates/utf-8
+  description: 'Bug: 288312145'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/userfaultfd
+  url: https://android.googlesource.com/platform/external/rust/crates/userfaultfd
+  description: 'Bug: 259127251'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/untrusted
+  url: https://android.googlesource.com/platform/external/rust/crates/untrusted
+  description: 'Bug: 174788905'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/userfaultfd-sys
+  url: https://android.googlesource.com/platform/external/rust/crates/userfaultfd-sys
+  description: 'Bug: 259594956'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/v4l2r
+  url: https://android.googlesource.com/platform/external/rust/crates/v4l2r
+  description: 'Bug: 331411274'
+  rust_src_file_count: 66
+- name: platform/external/rust/crates/url
+  url: https://android.googlesource.com/platform/external/rust/crates/url
+  description: 'Bug: 175870081'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/vhost-device-vsock
+  url: https://android.googlesource.com/platform/external/rust/crates/vhost-device-vsock
+  description: 'Bug: 294236838'
+  rust_src_file_count: 8
+- name: platform/external/rust/crates/virtio-bindings
+  url: https://android.googlesource.com/platform/external/rust/crates/virtio-bindings
+  description: 'Bug: 298810966'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/virtio-vsock
+  url: https://android.googlesource.com/platform/external/rust/crates/virtio-vsock
+  description: 'Bug: 298809828'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/virtio-drivers
+  url: https://android.googlesource.com/platform/external/rust/crates/virtio-drivers
+  description: 'Bug: 256624101'
+  rust_src_file_count: 25
+- name: platform/external/rust/crates/vhost-user-backend
+  url: https://android.googlesource.com/platform/external/rust/crates/vhost-user-backend
+  description: 'Bug: 298813939'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/uuid
+  url: https://android.googlesource.com/platform/external/rust/crates/uuid
+  description: 'Bug: 182948946'
+  rust_src_file_count: 22
+- name: platform/external/rust/crates/vhost
+  url: https://android.googlesource.com/platform/external/rust/crates/vhost
+  description: 'Bug: 300203285'
+  rust_src_file_count: 19
+- name: platform/external/rust/crates/vsock
+  url: https://android.googlesource.com/platform/external/rust/crates/vsock
+  description: 'Bug: 171249434'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/vm-memory
+  url: https://android.googlesource.com/platform/external/rust/crates/vm-memory
+  description: 'Bug: 300201306'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/vmm-sys-util
+  url: https://android.googlesource.com/platform/external/rust/crates/vmm-sys-util
+  description: 'Bug: 298687879'
+  rust_src_file_count: 23
+- name: platform/external/rust/crates/virtio-queue
+  url: https://android.googlesource.com/platform/external/rust/crates/virtio-queue
+  description: 'Bug: 298811943'
+  rust_src_file_count: 10
+- name: platform/external/rust/crates/walkdir
+  url: https://android.googlesource.com/platform/external/rust/crates/walkdir
+  description: 'Bug: 179312498'
+  rust_src_file_count: 7
+- name: platform/external/rust/crates/want
+  url: https://android.googlesource.com/platform/external/rust/crates/want
+  description: 'Bug: 339186353'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/vsprintf
+  url: https://android.googlesource.com/platform/external/rust/crates/vsprintf
+  description: 'Bug: 360132300'
+  rust_src_file_count: 2
+- name: platform/external/rust/crates/weak-table
+  url: https://android.googlesource.com/platform/external/rust/crates/weak-table
+  description: 'Bug: 170637881'
+  rust_src_file_count: 15
+- name: platform/external/rust/crates/which
+  url: https://android.googlesource.com/platform/external/rust/crates/which
+  description: 'Bug: 153120169'
+  rust_src_file_count: 6
+- name: platform/external/rust/crates/xml-rs
+  url: https://android.googlesource.com/platform/external/rust/crates/xml-rs
+  description: 'Bug: 193650545'
+  rust_src_file_count: 29
+- name: platform/external/rust/crates/webpki
+  url: https://android.googlesource.com/platform/external/rust/crates/webpki
+  description: 'Bug: 193829711'
+  rust_src_file_count: 17
+- name: platform/external/rust/crates/zeroize
+  url: https://android.googlesource.com/platform/external/rust/crates/zeroize
+  description: 'Bug: 249345607'
+  rust_src_file_count: 5
+- name: platform/external/rust/crates/winnow
+  url: https://android.googlesource.com/platform/external/rust/crates/winnow
+  description: 'Bug: 298810960'
+  rust_src_file_count: 87
+- name: platform/external/rust/crates/zeroize_derive
+  url: https://android.googlesource.com/platform/external/rust/crates/zeroize_derive
+  description: 'Bug: 247785902'
+  rust_src_file_count: 1
+- name: platform/external/rust/cros-libva
+  url: https://android.googlesource.com/platform/external/rust/cros-libva
+  description: 'Bug: 377643061'
+  rust_src_file_count: 21
+- name: platform/external/rust/crates/x509-cert
+  url: https://android.googlesource.com/platform/external/rust/crates/x509-cert
+  description: 'Bug: 249330482'
+  rust_src_file_count: 39
+- name: platform/external/rust/crates/vulkano
+  url: https://android.googlesource.com/platform/external/rust/crates/vulkano
+  description: 'Bug: 193647925'
+  rust_src_file_count: 153
+- name: platform/external/rust/crates/zip
+  url: https://android.googlesource.com/platform/external/rust/crates/zip
+  description: 'Bug: 180073755'
+  rust_src_file_count: 29
+- name: platform/external/rust/crates/x509-parser
+  url: https://android.googlesource.com/platform/external/rust/crates/x509-parser
+  description: 'Bug: 194415839'
+  rust_src_file_count: 22
+- name: platform/external/rust/crates/zune-inflate
+  url: https://android.googlesource.com/platform/external/rust/crates/zune-inflate
+  description: 'Bug: 353383591'
+  rust_src_file_count: 11
+- name: platform/external/rust/crates/zerocopy-derive
+  url: https://android.googlesource.com/platform/external/rust/crates/zerocopy-derive
+  description: 'Bug: 262009284'
+  rust_src_file_count: 43
+- name: platform/external/rust/crates/yaml-rust
+  url: https://android.googlesource.com/platform/external/rust/crates/yaml-rust
+  description: 'Bug: 298803417'
+  rust_src_file_count: 9
+- name: platform/external/rust/crates/zerocopy
+  url: https://android.googlesource.com/platform/external/rust/crates/zerocopy
+  description: 'Bug: 262013092'
+  rust_src_file_count: 141
+- name: platform/external/rust/cxx
+  url: https://android.googlesource.com/platform/external/rust/cxx
+  description: 'Bug: 156532060'
+  rust_src_file_count: 190
+- name: platform/external/rust/pica
+  url: https://android.googlesource.com/platform/external/rust/pica
+  description: 'Bug: 263266358'
+  rust_src_file_count: 11
+- name: platform/external/stg
+  url: https://android.googlesource.com/platform/external/stg
+  description: ''
+  rust_src_file_count: 6
+- name: platform/external/skia
+  url: https://android.googlesource.com/platform/external/skia
+  description: ''
+  rust_src_file_count: 10
+- name: platform/external/toolchain-utils
+  url: https://android.googlesource.com/platform/external/toolchain-utils
+  description: ''
+  rust_src_file_count: 5
+- name: platform/external/uwb
+  url: https://android.googlesource.com/platform/external/uwb
+  description: 'Bug: 237676695'
+  rust_src_file_count: 50
+- name: platform/external/virtio-media
+  url: https://android.googlesource.com/platform/external/virtio-media
+  description: 'Bug: 330728773'
+  rust_src_file_count: 21
+- name: platform/frameworks/compile/libbcc
+  url: https://android.googlesource.com/platform/frameworks/compile/libbcc
+  description: ''
+  rust_src_file_count: 8
+- name: platform/external/vboot_reference
+  url: https://android.googlesource.com/platform/external/vboot_reference
+  description: ''
+  rust_src_file_count: 2
+- name: platform/frameworks/proto_logging
+  url: https://android.googlesource.com/platform/frameworks/proto_logging
+  description: 'Bug: 143080132'
+  rust_src_file_count: 2
+- name: platform/hardware/google/pixel
+  url: https://android.googlesource.com/platform/hardware/google/pixel
+  description: 'Bug: 115686814'
+  rust_src_file_count: 1
+- name: platform/packages/modules/ConfigInfrastructure
+  url: https://android.googlesource.com/platform/packages/modules/ConfigInfrastructure
+  description: 'Bug: 257952277'
+  rust_src_file_count: 13
+- name: platform/packages/modules/Connectivity
+  url: https://android.googlesource.com/platform/packages/modules/Connectivity
+  description: 'Bug: 170293271'
+  rust_src_file_count: 6
+- name: platform/packages/modules/DnsResolver
+  url: https://android.googlesource.com/platform/packages/modules/DnsResolver
+  description: 'Bug: 134997188'
+  rust_src_file_count: 22
+- name: platform/packages/modules/Nfc
+  url: https://android.googlesource.com/platform/packages/modules/Nfc
+  description: 'Bug: 365583115'
+  rust_src_file_count: 14
+- name: platform/packages/modules/SdkExtensions
+  url: https://android.googlesource.com/platform/packages/modules/SdkExtensions
+  description: 'Bug: 146511931'
+  rust_src_file_count: 1
+- name: platform/packages/modules/Uwb
+  url: https://android.googlesource.com/platform/packages/modules/Uwb
+  description: 'Bug: 189143511'
+  rust_src_file_count: 14
+- name: platform/packages/wallpapers/HoloSpiral
+  url: https://android.googlesource.com/platform/packages/wallpapers/HoloSpiral
+  description: ''
+  rust_src_file_count: 1
+- name: platform/packages/wallpapers/MagicSmoke
+  url: https://android.googlesource.com/platform/packages/wallpapers/MagicSmoke
+  description: ''
+  rust_src_file_count: 1
+- name: platform/packages/wallpapers/NoiseField
+  url: https://android.googlesource.com/platform/packages/wallpapers/NoiseField
+  description: ''
+  rust_src_file_count: 1
+- name: platform/packages/wallpapers/PhaseBeam
+  url: https://android.googlesource.com/platform/packages/wallpapers/PhaseBeam
+  description: ''
+  rust_src_file_count: 1
+- name: platform/platform_testing
+  url: https://android.googlesource.com/platform/platform_testing
+  description: ''
+  rust_src_file_count: 6
+- name: platform/packages/wallpapers/MusicVisualization
+  url: https://android.googlesource.com/platform/packages/wallpapers/MusicVisualization
+  description: ''
+  rust_src_file_count: 3
+- name: platform/packages/modules/Bluetooth
+  url: https://android.googlesource.com/platform/packages/modules/Bluetooth
+  description: 'Bug: 202329883'
+  rust_src_file_count: 201
+- name: platform/packages/modules/Virtualization
+  url: https://android.googlesource.com/platform/packages/modules/Virtualization
+  description: 'Bug: 170069217'
+  rust_src_file_count: 296
+- name: platform/system/apex
+  url: https://android.googlesource.com/platform/system/apex
+  description: 'Bug: 112515528'
+  rust_src_file_count: 2
+- name: platform/system/authgraph
+  url: https://android.googlesource.com/platform/system/authgraph
+  description: 'Bug: 293191657'
+  rust_src_file_count: 24
+- name: platform/system/core
+  url: https://android.googlesource.com/platform/system/core
+  description: minimal bootable environment
+  rust_src_file_count: 18
+- name: platform/system/cros-codecs
+  url: https://android.googlesource.com/platform/system/cros-codecs
+  description: 'Bug: 380289195'
+  rust_src_file_count: 120
+- name: platform/system/keymint
+  url: https://android.googlesource.com/platform/system/keymint
+  description: 'Bug: 225203605'
+  rust_src_file_count: 69
+- name: platform/system/libfmq
+  url: https://android.googlesource.com/platform/system/libfmq
+  description: ''
+  rust_src_file_count: 5
+- name: platform/system/librustutils
+  url: https://android.googlesource.com/platform/system/librustutils
+  description: 'Bug: 195061451'
+  rust_src_file_count: 8
+- name: platform/system/logging
+  url: https://android.googlesource.com/platform/system/logging
+  description: 'Bug: 168791309'
+  rust_src_file_count: 8
+- name: platform/system/memory/mmd
+  url: https://android.googlesource.com/platform/system/memory/mmd
+  description: 'Bug: 374162338'
+  rust_src_file_count: 22
+- name: platform/system/secure_element
+  url: https://android.googlesource.com/platform/system/secure_element
+  description: 'Bug: 397456726'
+  rust_src_file_count: 4
+- name: platform/system/secretkeeper
+  url: https://android.googlesource.com/platform/system/secretkeeper
+  description: 'Bug: 310885032'
+  rust_src_file_count: 24
+- name: platform/system/see/authmgr
+  url: https://android.googlesource.com/platform/system/see/authmgr
+  description: 'Bug: 350548969'
+  rust_src_file_count: 12
+- name: platform/system/server_configurable_flags
+  url: https://android.googlesource.com/platform/system/server_configurable_flags
+  description: 'Bug: 118323586'
+  rust_src_file_count: 3
+- name: platform/system/security
+  url: https://android.googlesource.com/platform/system/security
+  description: ''
+  rust_src_file_count: 110
+- name: platform/system/sepolicy
+  url: https://android.googlesource.com/platform/system/sepolicy
+  description: 'Bug: http://b/27875478'
+  rust_src_file_count: 1
+- name: platform/system/tools/aidl
+  url: https://android.googlesource.com/platform/system/tools/aidl
+  description: ''
+  rust_src_file_count: 98
+- name: platform/system/tools/mkbootimg
+  url: https://android.googlesource.com/platform/system/tools/mkbootimg
+  description: 'Bug: 133171083'
+  rust_src_file_count: 1
+- name: platform/system/usb_info_tools
+  url: https://android.googlesource.com/platform/system/usb_info_tools
+  description: 'Bug: 367203169'
+  rust_src_file_count: 4
+- name: platform/tools/asuite
+  url: https://android.googlesource.com/platform/tools/asuite
+  description: 'Bug: 111883332'
+  rust_src_file_count: 16
+- name: platform/tools/build
+  url: https://android.googlesource.com/platform/tools/build
+  description: ''
+  rust_src_file_count: 21
+- name: platform/external/cronet
+  url: https://android.googlesource.com/platform/external/cronet
+  description: 'Bug: 263150094'
+  rust_src_file_count: 6588
+- name: platform/tools/base
+  url: https://android.googlesource.com/platform/tools/base
+  description: ''
+  rust_src_file_count: 21
+- name: platform/tools/security
+  url: https://android.googlesource.com/platform/tools/security
+  description: 'Bug: 77098416'
+  rust_src_file_count: 37
+- name: platform/tools/netsim
+  url: https://android.googlesource.com/platform/tools/netsim
+  description: 'Bug: 240031952'
+  rust_src_file_count: 139
+- name: platform/system/extras
+  url: https://android.googlesource.com/platform/system/extras
+  description: debugging/inspection tools
+  rust_src_file_count: 19
+- name: tee/optee/ta/keymint
+  url: https://android.googlesource.com/tee/optee/ta/keymint
+  description: 'Bug: 331668773'
+  rust_src_file_count: 25
+- name: toolchain/cargo-deny
+  url: https://android.googlesource.com/toolchain/cargo-deny
+  description: 'Bug: 284294956'
+  rust_src_file_count: 9592
+- name: toolchain/gdb
+  url: https://android.googlesource.com/toolchain/gdb
+  description: ''
+  rust_src_file_count: 14
+- name: toolchain/llvm-project
+  url: https://android.googlesource.com/toolchain/llvm-project
+  description: 'Bug: 132347091'
+  rust_src_file_count: 1
+- name: trusty/app/keymint
+  url: https://android.googlesource.com/trusty/app/keymint
+  description: 'Bug: 223458328'
+  rust_src_file_count: 17
+- name: trusty/app/secretkeeper
+  url: https://android.googlesource.com/trusty/app/secretkeeper
+  description: 'Bug: 310885032'
+  rust_src_file_count: 4
+- name: trusty/app/sample
+  url: https://android.googlesource.com/trusty/app/sample
+  description: ''
+  rust_src_file_count: 34
+- name: trusty/external/qemu-keycodemapdb
+  url: https://android.googlesource.com/trusty/external/qemu-keycodemapdb
+  description: 'Bug: 112114220'
+  rust_src_file_count: 1
+- name: trusty/host/aidl
+  url: https://android.googlesource.com/trusty/host/aidl
+  description: 'Bug: 234928363'
+  rust_src_file_count: 94
+- name: trusty/lk/trusty
+  url: https://android.googlesource.com/trusty/lk/trusty
+  description: ''
+  rust_src_file_count: 9
+- name: toolchain/rustc
+  url: https://android.googlesource.com/toolchain/rustc
+  description: 'Bug: 135531560'
+  rust_src_file_count: 84866
+- name: platform/tools/adt/idea
+  url: https://android.googlesource.com/platform/tools/adt/idea
+  description: ''
+  rust_src_file_count: 2
+- name: platform/prebuilts/rust
+  url: https://android.googlesource.com/platform/prebuilts/rust
+  description: 'Bug: 135215133'
+  rust_src_file_count: 8045

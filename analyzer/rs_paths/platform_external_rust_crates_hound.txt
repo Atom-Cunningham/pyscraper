@@ -1,0 +1,8 @@
+examples/append.rs
+examples/cpal.rs
+examples/mean.rs
+examples/rms.rs
+examples/wavstdout.rs
+src/lib.rs
+src/read.rs
+src/write.rs

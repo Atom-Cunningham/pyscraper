@@ -1,0 +1,9 @@
+src/bin/hash_file.rs
+src/digest_0_10_support.rs
+src/digest_0_9_support.rs
+src/digest_support.rs
+src/lib.rs
+src/sixty_four.rs
+src/std_support.rs
+src/thirty_two.rs
+src/xxh3.rs

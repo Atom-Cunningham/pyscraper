@@ -1,0 +1,17 @@
+bindings/rust/libflashrom-sys/build.rs
+bindings/rust/libflashrom-sys/src/lib.rs
+bindings/rust/libflashrom/build.rs
+bindings/rust/libflashrom/src/lib.rs
+util/flashrom_tester/build.rs
+util/flashrom_tester/flashrom/src/cmd.rs
+util/flashrom_tester/flashrom/src/flashromlib.rs
+util/flashrom_tester/flashrom/src/lib.rs
+util/flashrom_tester/src/cros_sysinfo.rs
+util/flashrom_tester/src/lib.rs
+util/flashrom_tester/src/logger.rs
+util/flashrom_tester/src/main.rs
+util/flashrom_tester/src/rand_util.rs
+util/flashrom_tester/src/tester.rs
+util/flashrom_tester/src/tests.rs
+util/flashrom_tester/src/types.rs
+util/flashrom_tester/src/utils.rs

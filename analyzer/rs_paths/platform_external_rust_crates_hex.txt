@@ -1,0 +1,6 @@
+benches/hex.rs
+src/error.rs
+src/lib.rs
+src/serde.rs
+tests/serde.rs
+tests/version-number.rs

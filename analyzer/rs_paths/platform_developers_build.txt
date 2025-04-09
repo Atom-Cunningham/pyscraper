@@ -1,0 +1,2 @@
+prebuilts/gradle/BasicRenderScript/Application/src/main/rs/saturation.rs
+prebuilts/gradle/HdrViewfinder/Application/src/main/rs/hdr_merge.rs

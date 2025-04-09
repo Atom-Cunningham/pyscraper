@@ -1,0 +1,6 @@
+src/ffi_names.rs
+src/group.rs
+src/lib.rs
+src/metadata.rs
+src/reader.rs
+src/types.rs

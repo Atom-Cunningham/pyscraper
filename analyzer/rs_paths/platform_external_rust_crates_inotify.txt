@@ -1,0 +1,10 @@
+examples/stream.rs
+examples/watch.rs
+src/events.rs
+src/fd_guard.rs
+src/inotify.rs
+src/lib.rs
+src/stream.rs
+src/util.rs
+src/watches.rs
+tests/main.rs

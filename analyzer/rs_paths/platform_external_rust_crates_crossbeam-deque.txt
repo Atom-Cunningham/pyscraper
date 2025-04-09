@@ -1,0 +1,6 @@
+src/deque.rs
+src/lib.rs
+tests/fifo.rs
+tests/injector.rs
+tests/lifo.rs
+tests/steal.rs

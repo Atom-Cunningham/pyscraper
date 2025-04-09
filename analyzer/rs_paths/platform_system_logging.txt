@@ -1,0 +1,8 @@
+rust/liblog_event_list.rs
+rust/logger.rs
+rust/structured_logger.rs
+rust/tests/config_log_level.rs
+rust/tests/default_init.rs
+rust/tests/env_log_level.rs
+rust/tests/multiple_init.rs
+rust/tests/structured_logging_tests.rs

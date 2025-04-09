@@ -1,0 +1,4 @@
+typec_connector_class_helper/src/main.rs
+typec_connector_class_helper/src/typec_class_utils.rs
+typec_connector_class_helper/src/typec_class_utils_tests.rs
+typec_connector_class_helper/src/usb_pd_utils.rs

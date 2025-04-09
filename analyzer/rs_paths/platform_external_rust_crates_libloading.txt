@@ -1,0 +1,15 @@
+src/changelog.rs
+src/error.rs
+src/lib.rs
+src/os/mod.rs
+src/os/unix/consts.rs
+src/os/unix/mod.rs
+src/os/windows/mod.rs
+src/safe.rs
+src/test_helpers.rs
+src/util.rs
+tests/constants.rs
+tests/functions.rs
+tests/library_filename.rs
+tests/markers.rs
+tests/windows.rs

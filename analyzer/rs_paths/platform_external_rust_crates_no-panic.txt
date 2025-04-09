@@ -1,0 +1,5 @@
+src/lib.rs
+tests/compiletest/mod.rs
+tests/test.rs
+tests/ui/async-fn.rs
+tests/ui/trait-fn.rs

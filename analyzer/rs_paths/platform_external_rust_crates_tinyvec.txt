@@ -1,0 +1,13 @@
+benches/macros.rs
+benches/smallvec.rs
+src-backup/arrayset.rs
+src/array.rs
+src/array/const_generic_impl.rs
+src/array/generated_impl.rs
+src/arrayvec.rs
+src/arrayvec_drain.rs
+src/lib.rs
+src/slicevec.rs
+src/tinyvec.rs
+tests/arrayvec.rs
+tests/tinyvec.rs

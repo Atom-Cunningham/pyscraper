@@ -1,0 +1,2 @@
+src/wasm/rust/harfbuzz-wasm/src/lib.rs
+src/wasm/sample/rust/hello-wasm/src/lib.rs

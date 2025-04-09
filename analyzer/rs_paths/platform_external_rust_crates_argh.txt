@@ -1,0 +1,9 @@
+examples/simple_example.rs
+src/lib.rs
+tests/args_info_tests.rs
+tests/compiletest.rs
+tests/lib.rs
+tests/ui/bad-long-names/bad-long-names.rs
+tests/ui/conflicting-tails/positional-and-greedy.rs
+tests/ui/duplicate-name/duplicate-long-name.rs
+tests/ui/duplicate-name/duplicate-short-name.rs

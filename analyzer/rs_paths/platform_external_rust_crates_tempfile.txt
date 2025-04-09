@@ -1,0 +1,14 @@
+src/dir.rs
+src/error.rs
+src/file/imp/mod.rs
+src/file/imp/other.rs
+src/file/imp/unix.rs
+src/file/imp/windows.rs
+src/file/mod.rs
+src/lib.rs
+src/spooled.rs
+src/util.rs
+tests/namedtempfile.rs
+tests/spooled.rs
+tests/tempdir.rs
+tests/tempfile.rs

@@ -1,0 +1,14 @@
+gdb-8.3/gdb/testsuite/gdb.rust/generics.rs
+gdb-8.3/gdb/testsuite/gdb.rust/methods.rs
+gdb-8.3/gdb/testsuite/gdb.rust/modules.rs
+gdb-8.3/gdb/testsuite/gdb.rust/simple.rs
+gdb-8.3/gdb/testsuite/gdb.rust/traits.rs
+gdb-8.3/gdb/testsuite/gdb.rust/unsized.rs
+gdb-8.3/gdb/testsuite/gdb.rust/watch.rs
+gdb-9.2/gdb/testsuite/gdb.rust/generics.rs
+gdb-9.2/gdb/testsuite/gdb.rust/methods.rs
+gdb-9.2/gdb/testsuite/gdb.rust/modules.rs
+gdb-9.2/gdb/testsuite/gdb.rust/simple.rs
+gdb-9.2/gdb/testsuite/gdb.rust/traits.rs
+gdb-9.2/gdb/testsuite/gdb.rust/unsized.rs
+gdb-9.2/gdb/testsuite/gdb.rust/watch.rs

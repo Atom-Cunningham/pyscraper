@@ -1,0 +1,2 @@
+stats/stats_log_api_gen/rust_header_wrapper.rs
+stats/stats_log_api_gen/rust_wrapper.rs

@@ -1,0 +1,10 @@
+src/block/avx.rs
+src/block/avx2.rs
+src/block/default.rs
+src/block/mod.rs
+src/block/sse2.rs
+src/block/wasm.rs
+src/lib.rs
+src/range.rs
+src/serde_impl.rs
+tests/tests.rs

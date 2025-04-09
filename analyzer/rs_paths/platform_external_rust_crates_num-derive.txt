@@ -1,0 +1,11 @@
+src/lib.rs
+tests/empty_enum.rs
+tests/issue-16.rs
+tests/issue-6.rs
+tests/issue-9.rs
+tests/newtype-2015.rs
+tests/newtype.rs
+tests/num_derive_without_num.rs
+tests/trivial-2015.rs
+tests/trivial.rs
+tests/with_custom_values.rs

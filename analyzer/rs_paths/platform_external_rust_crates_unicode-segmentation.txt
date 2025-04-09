@@ -1,0 +1,10 @@
+benches/graphemes.rs
+benches/unicode_words.rs
+benches/word_bounds.rs
+src/grapheme.rs
+src/lib.rs
+src/sentence.rs
+src/tables.rs
+src/test.rs
+src/testdata.rs
+src/word.rs

@@ -1,0 +1,7 @@
+benches/benchmarks.rs
+src/compiler.rs
+src/error.rs
+src/instruction.rs
+src/lib.rs
+src/syntax.rs
+src/template.rs

@@ -1,0 +1,10 @@
+benches/convert.rs
+src/bfloat.rs
+src/bfloat/convert.rs
+src/binary16.rs
+src/binary16/convert.rs
+src/leading_zeros.rs
+src/lib.rs
+src/num_traits.rs
+src/slice.rs
+src/vec.rs

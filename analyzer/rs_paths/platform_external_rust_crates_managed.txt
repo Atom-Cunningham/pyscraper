@@ -1,0 +1,5 @@
+src/lib.rs
+src/map.rs
+src/object.rs
+src/slice.rs
+src/slotmap.rs

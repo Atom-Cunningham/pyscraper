@@ -1,0 +1,9 @@
+benches/all.rs
+src/lib.rs
+src/punycode.rs
+src/uts46.rs
+src/uts46_mapping_table.rs
+tests/punycode.rs
+tests/tests.rs
+tests/unit.rs
+tests/uts46.rs

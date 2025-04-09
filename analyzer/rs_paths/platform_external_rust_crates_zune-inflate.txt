@@ -1,0 +1,11 @@
+src/bitstream.rs
+src/constants.rs
+src/crc.rs
+src/crc/crc_tables.rs
+src/decoder.rs
+src/encoder.rs
+src/encoder/fast_match_finder.rs
+src/errors.rs
+src/gzip_constants.rs
+src/lib.rs
+src/utils.rs

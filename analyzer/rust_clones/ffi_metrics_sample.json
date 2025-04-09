@@ -1,0 +1,47 @@
+{
+  "platform/external/gsc-utils": {
+    "total_lines": 2081,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 4,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 4,
+      "other": 1
+    },
+    "average_file_depth": 2.6
+  },
+  "platform/external/libchromeos-rs": {
+    "total_lines": 5586,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 3,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 1,
+      "other": 12
+    },
+    "average_file_depth": 1.3846153846153846
+  },
+  "platform/external/minijail": {
+    "total_lines": 2076,
+    "extern_c": 88,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 4,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 3,
+      "other": 2
+    },
+    "average_file_depth": 2.6
+  }
+}

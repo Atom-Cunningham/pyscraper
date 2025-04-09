@@ -1,0 +1,10 @@
+bazel/external/icu4x/src/lib.rs
+bazel/external/vello/src/lib.rs
+experimental/rust_cxx/hello-world.rs
+experimental/rust_cxx/hype-bridge.rs
+experimental/rust_png/ffi/FFI.rs
+src/ports/fontations/src/ffi.rs
+third_party/vello/build.rs
+third_party/vello/src/encoding.rs
+third_party/vello/src/lib.rs
+third_party/vello/src/shaders.rs

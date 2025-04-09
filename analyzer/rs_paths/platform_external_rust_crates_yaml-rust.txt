@@ -1,0 +1,9 @@
+examples/dump_yaml.rs
+src/emitter.rs
+src/lib.rs
+src/parser.rs
+src/scanner.rs
+src/yaml.rs
+tests/quickcheck.rs
+tests/spec_test.rs
+tests/test_round_trip.rs

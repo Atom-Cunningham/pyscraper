@@ -1,0 +1,2 @@
+rust/vboot_reference-sys/build.rs
+rust/vboot_reference-sys/lib.rs

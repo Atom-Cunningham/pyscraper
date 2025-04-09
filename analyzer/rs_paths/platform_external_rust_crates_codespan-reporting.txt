@@ -1,0 +1,15 @@
+examples/custom_files.rs
+examples/peg_calculator.rs
+examples/readme_preview.rs
+examples/reusable_diagnostic.rs
+examples/term.rs
+src/diagnostic.rs
+src/files.rs
+src/lib.rs
+src/term.rs
+src/term/config.rs
+src/term/renderer.rs
+src/term/views.rs
+tests/support/color_buffer.rs
+tests/support/mod.rs
+tests/term.rs

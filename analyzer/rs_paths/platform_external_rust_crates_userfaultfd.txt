@@ -1,0 +1,7 @@
+examples/manpage.rs
+src/builder.rs
+src/error.rs
+src/event.rs
+src/lib.rs
+src/raw.rs
+tests/manpage_example.rs

@@ -1,0 +1,3 @@
+test/CodeGen/debug-info-renderscript-tag.rs
+test/Driver/renderscript.rs
+test/Sema/renderscript.rs

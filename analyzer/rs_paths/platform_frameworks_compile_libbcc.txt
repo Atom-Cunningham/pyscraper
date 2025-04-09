@@ -1,0 +1,8 @@
+tests/debuginfo/target-tests/breakpoint_function.rs
+tests/debuginfo/target-tests/breakpoint_inlined_function.rs
+tests/debuginfo/target-tests/breakpoint_inlined_sourceline.rs
+tests/debuginfo/target-tests/breakpoint_sourceline.rs
+tests/debuginfo/target-tests/crash.rs
+tests/debuginfo/target-tests/global_int.rs
+tests/debuginfo/target-tests/info_sources.rs
+tests/debuginfo/target-tests/locals.rs

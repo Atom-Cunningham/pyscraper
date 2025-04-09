@@ -1,0 +1,5 @@
+src/func.rs
+src/lib.rs
+src/macros.rs
+src/pat.rs
+src/path.rs

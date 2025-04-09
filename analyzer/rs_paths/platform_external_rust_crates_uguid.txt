@@ -1,0 +1,11 @@
+examples/guid_info.rs
+src/error.rs
+src/guid.rs
+src/lib.rs
+src/util.rs
+tests/test_guid.rs
+tests/test_macro_error.rs
+tests/test_serde.rs
+tests/ui/guid_hex.rs
+tests/ui/guid_len.rs
+tests/ui/guid_sep.rs

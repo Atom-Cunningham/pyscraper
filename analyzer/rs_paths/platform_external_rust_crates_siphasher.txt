@@ -1,0 +1,5 @@
+src/lib.rs
+src/sip.rs
+src/sip128.rs
+src/tests.rs
+src/tests128.rs

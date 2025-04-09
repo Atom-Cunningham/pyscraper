@@ -1,0 +1,5 @@
+llvm_tools/patch_sync/src/android_utils.rs
+llvm_tools/patch_sync/src/main.rs
+llvm_tools/patch_sync/src/patch_parsing.rs
+llvm_tools/patch_sync/src/version_control.rs
+rust-analyzer-chromiumos-wrapper/src/main.rs

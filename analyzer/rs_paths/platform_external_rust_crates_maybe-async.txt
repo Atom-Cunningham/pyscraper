@@ -1,0 +1,16 @@
+examples/service_client.rs
+src/lib.rs
+src/parse.rs
+src/visit.rs
+tests/test.rs
+tests/ui/01-maybe-async.rs
+tests/ui/02-must-be-async.rs
+tests/ui/03-must-be-sync.rs
+tests/ui/04-unit-test-util.rs
+tests/ui/05-replace-future-generic-type-with-output.rs
+tests/ui/06-sync_impl_async_impl.rs
+tests/ui/test_fail/01-empty-test.rs
+tests/ui/test_fail/02-unknown-path.rs
+tests/ui/test_fail/03-async-gt2.rs
+tests/ui/test_fail/04-bad-sync-cond.rs
+tests/unit-test-util.rs

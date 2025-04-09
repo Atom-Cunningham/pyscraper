@@ -1,0 +1,6 @@
+test_cases/info_tests/enum/methods.rs
+test_cases/info_tests/variant/negative_discriminant.rs
+test_cases/info_tests/variant/offset_discriminant.rs
+test_cases/info_tests/variant/optional_empty.rs
+test_cases/info_tests/variant/simple.rs
+test_cases/info_tests/variant/singleton.rs

@@ -1,0 +1,8 @@
+bindgen-bindings/bindgen_3.14.0.rs
+bindgen-bindings/bindgen_3.14.0_ext.rs
+build.rs
+sqlcipher/bindgen_bundled_version.rs
+sqlite3/bindgen_bundled_version.rs
+sqlite3/bindgen_bundled_version_ext.rs
+src/error.rs
+src/lib.rs

@@ -1,0 +1,14 @@
+build.rs
+src/aes_hash.rs
+src/convert.rs
+src/fallback_hash.rs
+src/hash_map.rs
+src/hash_quality_test.rs
+src/hash_set.rs
+src/lib.rs
+src/operations.rs
+src/random_state.rs
+src/specialize.rs
+tests/bench.rs
+tests/map_tests.rs
+tests/nopanic.rs

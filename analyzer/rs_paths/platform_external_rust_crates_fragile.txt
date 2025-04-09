@@ -1,0 +1,9 @@
+examples/basic-fragile.rs
+examples/basic-sticky.rs
+src/errors.rs
+src/fragile.rs
+src/lib.rs
+src/registry.rs
+src/semisticky.rs
+src/sticky.rs
+src/thread_id.rs

@@ -1,0 +1,12 @@
+src/lib.rs
+tests/compilation.rs
+tests/ui/fail/entry_bad_abi.rs
+tests/ui/fail/entry_bad_arg.rs
+tests/ui/fail/entry_bad_async.rs
+tests/ui/fail/entry_bad_attr_arg.rs
+tests/ui/fail/entry_bad_const.rs
+tests/ui/fail/entry_bad_generic.rs
+tests/ui/fail/entry_bad_return_type.rs
+tests/ui/pass/entry.rs
+tests/ui/pass/entry_docstring.rs
+tests/ui/pass/entry_unsafe.rs

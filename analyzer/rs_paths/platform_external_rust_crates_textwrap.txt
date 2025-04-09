@@ -1,0 +1,11 @@
+src/core.rs
+src/fuzzing.rs
+src/indentation.rs
+src/lib.rs
+src/line_ending.rs
+src/word_separators.rs
+src/word_splitters.rs
+src/wrap_algorithms.rs
+src/wrap_algorithms/optimal_fit.rs
+tests/indent.rs
+tests/version-numbers.rs

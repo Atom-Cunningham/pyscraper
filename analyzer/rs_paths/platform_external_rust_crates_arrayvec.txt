@@ -1,0 +1,11 @@
+benches/arraystring.rs
+benches/extend.rs
+src/array_string.rs
+src/arrayvec.rs
+src/arrayvec_impl.rs
+src/char.rs
+src/errors.rs
+src/lib.rs
+src/utils.rs
+tests/serde.rs
+tests/tests.rs
