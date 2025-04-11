@@ -12,7 +12,7 @@ def main():
     
     workspace = os.path.join(os.getcwd(), "rust_clones")
 
-    analyze_json_repos(json_file, rust_binary, workspace, max_repo_size = 1000, max_count=500, delete_after=True)
+    analyze_json_repos(json_file, rust_binary, workspace, max_repo_size = 100000, max_count=500, delete_after=True)
 
 def clone_repo(clone_url, target_dir):
     if os.path.exists(target_dir):
