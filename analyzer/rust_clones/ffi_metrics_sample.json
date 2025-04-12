@@ -1,4 +1,64 @@
 {
+  "device/google/cuttlefish": {
+    "total_lines": 2906,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 1,
+    "syntax_tree_height": 6,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 1,
+      "other": 20
+    },
+    "average_file_depth": 3.7142857142857144
+  },
+  "device/google/gs-common": {
+    "total_lines": 109,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 3,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 1
+    },
+    "average_file_depth": 2.0
+  },
+  "kernel/common": {
+    "total_lines": 25534,
+    "extern_c": 1,
+    "link_attrs": 0,
+    "no_mangle": 4,
+    "syntax_tree_height": 5,
+    "usage": {
+      "kernel": 73,
+      "driver": 7,
+      "sandbox": 0,
+      "library": 3,
+      "other": 22
+    },
+    "average_file_depth": 2.3714285714285714
+  },
+  "platform/bionic": {
+    "total_lines": 98,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 15,
+    "syntax_tree_height": 3,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 1,
+      "other": 0
+    },
+    "average_file_depth": 2.0
+  },
   "platform/bootable/libbootloader": {
     "total_lines": 39013,
     "extern_c": 4,
@@ -13,6 +73,111 @@
       "other": 12
     },
     "average_file_depth": 3.29126213592233
+  },
+  "platform/build": {
+    "total_lines": 16091,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 4,
+    "syntax_tree_height": 6,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 8,
+      "other": 52
+    },
+    "average_file_depth": 4.0
+  },
+  "platform/developers/build": {
+    "total_lines": 0,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 0,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 2
+    },
+    "average_file_depth": 7.0
+  },
+  "platform/developers/samples/android": {
+    "total_lines": 0,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 0,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 2
+    },
+    "average_file_depth": 6.0
+  },
+  "platform/development": {
+    "total_lines": 11572,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 1,
+    "syntax_tree_height": 5,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 12,
+      "other": 39
+    },
+    "average_file_depth": 3.823529411764706
+  },
+  "platform/external/angle": {
+    "total_lines": 1274,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 3,
+    "syntax_tree_height": 7,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 23,
+      "other": 26
+    },
+    "average_file_depth": 4.448979591836735
+  },
+  "platform/external/clang": {
+    "total_lines": 6,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 3,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 3
+    },
+    "average_file_depth": 2.0
+  },
+  "platform/external/cronet": {
+    "total_lines": 0,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 0,
+    "usage": {
+      "kernel": 1,
+      "driver": 1,
+      "sandbox": 0,
+      "library": 889,
+      "other": 5697
+    },
+    "average_file_depth": 8.039010321797207
   },
   "platform/external/flashrom": {
     "total_lines": 4080,
@@ -29,6 +194,21 @@
     },
     "average_file_depth": 3.235294117647059
   },
+  "platform/external/flatbuffers": {
+    "total_lines": 40421,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 1,
+    "syntax_tree_height": 5,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 4,
+      "other": 159
+    },
+    "average_file_depth": 3.2883435582822087
+  },
   "platform/external/gsc-utils": {
     "total_lines": 2081,
     "extern_c": 0,
@@ -44,6 +224,36 @@
     },
     "average_file_depth": 2.6
   },
+  "platform/external/harfbuzz_ng": {
+    "total_lines": 488,
+    "extern_c": 1,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 7,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 2,
+      "other": 0
+    },
+    "average_file_depth": 5.5
+  },
+  "platform/external/kythe": {
+    "total_lines": 21399,
+    "extern_c": 5,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 15,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 10,
+      "other": 52
+    },
+    "average_file_depth": 4.709677419354839
+  },
   "platform/external/libchromeos-rs": {
     "total_lines": 5586,
     "extern_c": 0,
@@ -58,6 +268,21 @@
       "other": 12
     },
     "average_file_depth": 1.3846153846153846
+  },
+  "platform/external/mesa3d": {
+    "total_lines": 56411,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 38,
+    "syntax_tree_height": 8,
+    "usage": {
+      "kernel": 2,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 12,
+      "other": 96
+    },
+    "average_file_depth": 4.336363636363636
   },
   "platform/external/minijail": {
     "total_lines": 2076,
@@ -89,6 +314,21 @@
     },
     "average_file_depth": 1.3333333333333333
   },
+  "platform/external/opencv3": {
+    "total_lines": 0,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 0,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 1
+    },
+    "average_file_depth": 4.0
+  },
   "platform/external/open-dice": {
     "total_lines": 1804,
     "extern_c": 0,
@@ -103,6 +343,21 @@
       "other": 7
     },
     "average_file_depth": 2.0
+  },
+  "platform/external/pigweed": {
+    "total_lines": 11974,
+    "extern_c": 1,
+    "link_attrs": 0,
+    "no_mangle": 1,
+    "syntax_tree_height": 6,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 10,
+      "other": 40
+    },
+    "average_file_depth": 2.9
   },
   "platform/external/python/bumble": {
     "total_lines": 8695,
@@ -793,6 +1048,21 @@
       "other": 1
     },
     "average_file_depth": 1.0
+  },
+  "platform/external/rust/crates/cbindgen": {
+    "total_lines": 18873,
+    "extern_c": 2,
+    "link_attrs": 0,
+    "no_mangle": 213,
+    "syntax_tree_height": 7,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 32,
+      "other": 194
+    },
+    "average_file_depth": 2.579646017699115
   },
   "platform/external/rust/crates/cesu8": {
     "total_lines": 490,
@@ -2203,6 +2473,21 @@
       "other": 5
     },
     "average_file_depth": 1.3333333333333333
+  },
+  "platform/external/rust/crates/grpcio-sys": {
+    "total_lines": 8308,
+    "extern_c": 676,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 2,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 1,
+      "other": 6
+    },
+    "average_file_depth": 0.7142857142857143
   },
   "platform/external/rust/crates/h2": {
     "total_lines": 25312,
@@ -3808,6 +4093,21 @@
       "other": 0
     },
     "average_file_depth": 1.0
+  },
+  "platform/external/rust/crates/quiche": {
+    "total_lines": 55848,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 126,
+    "syntax_tree_height": 5,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 1,
+      "other": 42
+    },
+    "average_file_depth": 1.813953488372093
   },
   "platform/external/rust/crates/quickcheck": {
     "total_lines": 2608,
@@ -6134,6 +6434,36 @@
     },
     "average_file_depth": 1.3636363636363635
   },
+  "platform/external/skia": {
+    "total_lines": 3726,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 5,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 3,
+      "other": 7
+    },
+    "average_file_depth": 3.0
+  },
+  "platform/external/stg": {
+    "total_lines": 73,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 5,
+    "syntax_tree_height": 4,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 6
+    },
+    "average_file_depth": 3.0
+  },
   "platform/external/toolchain-utils": {
     "total_lines": 2072,
     "extern_c": 0,
@@ -6163,6 +6493,21 @@
       "other": 47
     },
     "average_file_depth": 4.56
+  },
+  "platform/external/vboot_reference": {
+    "total_lines": 122,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 3,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 1,
+      "other": 1
+    },
+    "average_file_depth": 2.0
   },
   "platform/external/virtio-media": {
     "total_lines": 8878,
@@ -6224,6 +6569,21 @@
     },
     "average_file_depth": 1.0
   },
+  "platform/packages/modules/Bluetooth": {
+    "total_lines": 74045,
+    "extern_c": 1,
+    "link_attrs": 0,
+    "no_mangle": 18,
+    "syntax_tree_height": 8,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 16,
+      "other": 185
+    },
+    "average_file_depth": 5.024875621890548
+  },
   "platform/packages/modules/ConfigInfrastructure": {
     "total_lines": 5725,
     "extern_c": 0,
@@ -6238,6 +6598,21 @@
       "other": 11
     },
     "average_file_depth": 2.076923076923077
+  },
+  "platform/packages/modules/Connectivity": {
+    "total_lines": 463,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 3,
+    "syntax_tree_height": 5,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 1,
+      "other": 5
+    },
+    "average_file_depth": 4.0
   },
   "platform/packages/modules/DnsResolver": {
     "total_lines": 3879,
@@ -6254,6 +6629,21 @@
     },
     "average_file_depth": 2.272727272727273
   },
+  "platform/packages/modules/Nfc": {
+    "total_lines": 5246,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 6,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 14,
+      "other": 0
+    },
+    "average_file_depth": 4.0
+  },
   "platform/packages/modules/SdkExtensions": {
     "total_lines": 228,
     "extern_c": 0,
@@ -6268,6 +6658,36 @@
       "other": 1
     },
     "average_file_depth": 1.0
+  },
+  "platform/packages/modules/Uwb": {
+    "total_lines": 5805,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 48,
+    "syntax_tree_height": 5,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 2,
+      "other": 12
+    },
+    "average_file_depth": 3.5
+  },
+  "platform/packages/modules/Virtualization": {
+    "total_lines": 59797,
+    "extern_c": 1,
+    "link_attrs": 0,
+    "no_mangle": 88,
+    "syntax_tree_height": 7,
+    "usage": {
+      "kernel": 0,
+      "driver": 1,
+      "sandbox": 0,
+      "library": 158,
+      "other": 137
+    },
+    "average_file_depth": 3.314189189189189
   },
   "platform/packages/wallpapers/HoloSpiral": {
     "total_lines": 0,
@@ -6344,6 +6764,21 @@
     },
     "average_file_depth": 4.0
   },
+  "platform/platform_testing": {
+    "total_lines": 459,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 5,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 5,
+      "other": 1
+    },
+    "average_file_depth": 3.1666666666666665
+  },
   "platform/system/apex": {
     "total_lines": 190,
     "extern_c": 0,
@@ -6374,6 +6809,21 @@
     },
     "average_file_depth": 2.0
   },
+  "platform/system/core": {
+    "total_lines": 5461,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 6,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 15,
+      "other": 3
+    },
+    "average_file_depth": 3.7222222222222223
+  },
   "platform/system/cros-codecs": {
     "total_lines": 48871,
     "extern_c": 0,
@@ -6388,6 +6838,21 @@
       "other": 119
     },
     "average_file_depth": 2.808333333333333
+  },
+  "platform/system/extras": {
+    "total_lines": 3770,
+    "extern_c": 1,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 4,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 17,
+      "other": 2
+    },
+    "average_file_depth": 2.3157894736842106
   },
   "platform/system/keymint": {
     "total_lines": 23392,
@@ -6524,6 +6989,21 @@
     },
     "average_file_depth": 2.0833333333333335
   },
+  "platform/system/sepolicy": {
+    "total_lines": 40,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 1,
+    "syntax_tree_height": 4,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 1,
+      "other": 0
+    },
+    "average_file_depth": 3.0
+  },
   "platform/system/server_configurable_flags": {
     "total_lines": 221,
     "extern_c": 0,
@@ -6538,6 +7018,21 @@
       "other": 2
     },
     "average_file_depth": 1.6666666666666667
+  },
+  "platform/system/tools/aidl": {
+    "total_lines": 33682,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 12,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 98
+    },
+    "average_file_depth": 7.551020408163265
   },
   "platform/system/tools/mkbootimg": {
     "total_lines": 392,
@@ -6569,6 +7064,21 @@
     },
     "average_file_depth": 2.0
   },
+  "platform/tools/adt/idea": {
+    "total_lines": 0,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 12,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 2
+    },
+    "average_file_depth": 7.5
+  },
   "platform/tools/asuite": {
     "total_lines": 4666,
     "extern_c": 0,
@@ -6583,6 +7093,36 @@
       "other": 15
     },
     "average_file_depth": 2.125
+  },
+  "platform/tools/base": {
+    "total_lines": 0,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 0,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 21
+    },
+    "average_file_depth": 7.761904761904762
+  },
+  "platform/tools/build": {
+    "total_lines": 0,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 0,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 21
+    },
+    "average_file_depth": 6.285714285714286
   },
   "platform/tools/netsim": {
     "total_lines": 333134,
@@ -6628,6 +7168,21 @@
       "other": 25
     },
     "average_file_depth": 1.6
+  },
+  "toolchain/gdb": {
+    "total_lines": 1094,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 2,
+    "syntax_tree_height": 5,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 14
+    },
+    "average_file_depth": 4.0
   },
   "trusty/app/keymint": {
     "total_lines": 7164,
@@ -6688,6 +7243,21 @@
       "other": 1
     },
     "average_file_depth": 3.0
+  },
+  "trusty/host/aidl": {
+    "total_lines": 30060,
+    "extern_c": 0,
+    "link_attrs": 0,
+    "no_mangle": 0,
+    "syntax_tree_height": 12,
+    "usage": {
+      "kernel": 0,
+      "driver": 0,
+      "sandbox": 0,
+      "library": 0,
+      "other": 94
+    },
+    "average_file_depth": 7.787234042553192
   },
   "trusty/lk/trusty": {
     "total_lines": 1227,

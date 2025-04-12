@@ -40,7 +40,7 @@ def clone_repo_sparse(clone_url, target_dir, rs_paths=None):
             subprocess.run(["git", "checkout"], check=True)
             os.chdir("..")
         return True
-    except subprocess.CalledProcessError:
+    except (subprocess.CalledProcessError, OSError) as e:
         print(f"[!] Failed to clone: {clone_url}")
         return False
 
@@ -112,11 +112,17 @@ def analyze_json_repos(json_file, rust_binary, workspace, max_repo_size = 100, o
 
         # if in rust_clones, cd rs_paths
         rs_path_file = info["rs_path_file"]
-        if os.getcwd() == workspace:
+        currdirectory = os.getcwd()
+        while not currdirectory.endswith("analyzer"):
             os.chdir("..")
-        rs_path_file = os.path.join(os.getcwd(), rs_path_file)
+            currdirectory = os.getcwd()
+        rs_path_file = os.path.join(currdirectory, rs_path_file)
         # get list of rs files in repository:
         rs_paths = get_rs_paths(rs_path_file)
+
+        if rs_paths == None:
+            continue
+        
         
         local_path = os.path.join(workspace, name.replace("/", "_"))  # Avoid nesting dirs
         if clone_repo_sparse(clone_url, local_path, rs_paths):
