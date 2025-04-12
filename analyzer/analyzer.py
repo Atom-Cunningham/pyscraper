@@ -144,5 +144,6 @@ def analyze_json_repos(json_file, rust_binary, workspace, max_repo_size = 100, o
         json.dump(results, out, indent=2)
 
     print(f"✅ Done analyzing {count} repositories.")
+    print(f"wrote to {os.getcwd()},{output_file}")
 
 main()
