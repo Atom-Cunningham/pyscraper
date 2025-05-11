@@ -92,7 +92,7 @@ def average_file_depth(rs_paths):
     depths = [path.count("/") for path in rs_paths]
     return sum(depths) / len(depths) if depths else 0
 
-def analyze_json_repos(json_file, rust_binary, workspace, max_repo_size = 100, output_file = "ffi_metrics_sample.json", max_count=10, delete_after=False):
+def analyze_json_repos(json_file, rust_binary, workspace, max_repo_size = 100, output_file = "ffi_metrics_sample1.json", max_count=10, delete_after=False):
     os.makedirs(workspace, exist_ok=True)
     
     with open(json_file, "r", encoding="utf-8") as f:
