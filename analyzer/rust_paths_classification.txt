@@ -1,0 +1,39 @@
+Total repositories processed: 491
+
+Repositories using 'library': 10
+Repositories using 'hardware': 7
+Repositories using 'kernel': 4
+Repositories using 'core': 10
+Repositories using 'driver': 9
+
+Top 30 normalized directory segments:
+src: 465
+lib.rs: 456
+tests: 212
+mod.rs: 163
+error.rs: 100
+build.rs: 88
+examples: 87
+benches: 87
+tests.rs: 64
+main.rs: 63
+macros.rs: 61
+test.rs: 46
+util.rs: 40
+rust: 36
+utils.rs: 35
+parser.rs: 32
+parse.rs: 31
+iter.rs: 27
+map.rs: 27
+bench.rs: 26
+ui: 25
+common: 24
+builder.rs: 23
+context.rs: 23
+android: 23
+traits.rs: 22
+serde.rs: 22
+types.rs: 20
+stream.rs: 20
+time.rs: 19

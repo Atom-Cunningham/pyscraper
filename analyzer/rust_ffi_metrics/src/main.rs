@@ -1,13 +1,20 @@
-use std::{env, fs, path::Path};
-use syn::{Item, Attribute};
+use std::{env, fs};
+use std::path::Path;
+use syn::{Item, Attribute, File};
 use walkdir::WalkDir;
+use serde::Serialize;
 
-struct RustFileStats {
-    lines: usize,
-    depth: usize,
+#[derive(Serialize)]
+struct RepoStats {
+    total_lines: usize,
     extern_c: usize,
     link_attr: usize,
     no_mangle: usize,
+    unsafe_count: usize,
+    unsafe_fn_count: usize,
+    ffi_file_count: usize,
+    max_depth: usize,
+    classification: String,
 }
 
 fn get_attrs(item: &Item) -> &[Attribute] {
@@ -25,8 +32,15 @@ fn get_attrs(item: &Item) -> &[Attribute] {
     }
 }
 
-fn analyze_repo(repo_path: &str) -> Vec<RustFileStats> {
-    let mut stats = Vec::new();
+fn analyze_repo(repo_path: &str) -> RepoStats {
+    let mut total_lines = 0;
+    let mut extern_c = 0;
+    let mut link_attr = 0;
+    let mut no_mangle = 0;
+    let mut unsafe_count = 0;
+    let mut unsafe_fn_count = 0;
+    let mut ffi_file_count = 0;
+    let mut max_depth = 0;
 
     for entry in WalkDir::new(repo_path)
         .into_iter()
@@ -35,44 +49,69 @@ fn analyze_repo(repo_path: &str) -> Vec<RustFileStats> {
     {
         let content = fs::read_to_string(entry.path()).unwrap_or_default();
         let lines = content.lines().count();
-        let depth = entry.depth();
+        total_lines += lines;
+        max_depth = max_depth.max(entry.depth());
 
         let parsed = match syn::parse_file(&content) {
             Ok(p) => p,
             Err(_) => continue,
         };
 
-        let mut extern_c = 0;
-        let mut link_attr = 0;
-        let mut no_mangle = 0;
+        let mut file_has_ffi = false;
 
-        for item in parsed.items {
+        for item in &parsed.items {
             if let Item::ForeignMod(fm) = &item {
                 if fm.abi.name.as_ref().map(|n| n.value() == "C").unwrap_or(false) {
                     extern_c += 1;
+                    file_has_ffi = true;
                 }
             }
-
-            for attr in get_attrs(&item) {
+            if let Item::Fn(f) = &item {
+                if f.sig.unsafety.is_some() {
+                    unsafe_fn_count += 1;
+                    file_has_ffi = true;
+                }
+            }
+            for attr in get_attrs(item) {
                 if attr.path().is_ident("link") {
                     link_attr += 1;
+                    file_has_ffi = true;
                 }
                 if attr.path().is_ident("no_mangle") {
                     no_mangle += 1;
+                    file_has_ffi = true;
                 }
             }
         }
 
-        stats.push(RustFileStats {
-            lines,
-            depth,
-            extern_c,
-            link_attr,
-            no_mangle,
-        });
+        // Count unsafe blocks
+        unsafe_count += content.matches("unsafe {").count(); // Fast and simple heuristic
+        if content.contains("unsafe") {
+            file_has_ffi = true;
+        }
+
+        if file_has_ffi {
+            ffi_file_count += 1;
+        }
     }
 
-    stats
+    let classification = if extern_c > 0 || link_attr > 0 || no_mangle > 0 {
+        "FFI-related"
+    } else {
+        "Pure Rust"
+    }.to_string();
+
+    RepoStats {
+        total_lines,
+        extern_c,
+        link_attr,
+        no_mangle,
+        unsafe_count,
+        unsafe_fn_count,
+        ffi_file_count,
+        max_depth,
+        classification,
+    }
 }
 
 fn main() {
@@ -85,22 +124,6 @@ fn main() {
     let repo_path = &args[1];
     let stats = analyze_repo(repo_path);
 
-    let total_lines: usize = stats.iter().map(|s| s.lines).sum();
-    let total_extern_c: usize = stats.iter().map(|s| s.extern_c).sum();
-    let total_link_attr: usize = stats.iter().map(|s| s.link_attr).sum();
-    let total_no_mangle: usize = stats.iter().map(|s| s.no_mangle).sum();
-    let max_depth: usize = stats.iter().map(|s| s.depth).max().unwrap_or(0);
-
-    println!("Total lines of Rust code: {}", total_lines);
-    println!("Total extern \"C\" blocks: {}", total_extern_c);
-    println!("Total #[link(...)] attributes: {}", total_link_attr);
-    println!("Total #[no_mangle] functions: {}", total_no_mangle);
-    println!("Maximum Rust file depth: {}", max_depth);
-
-    let classification = if total_extern_c > 0 || total_link_attr > 0 || total_no_mangle > 0 {
-        "FFI-related"
-    } else {
-        "Pure Rust"
-    };
-    println!("Repository classification: {}", classification);
+    let json = serde_json::to_string_pretty(&stats).unwrap();
+    println!("{}", json);
 }
