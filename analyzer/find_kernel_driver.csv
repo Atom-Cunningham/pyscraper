@@ -1,0 +1,3 @@
+,total_lines,extern_c,link_attrs,no_mangle,unsafe_count,unsafe_fn_count,ffi_file_count,syntax_tree_height,ffi_density_per_kloc,average_file_depth,kernel,driver,sandbox,library,other
+kernel/common,24078,1,0,1,667,4,69,5,27.9508264806047,2.3714285714285714,73,7,0,3,22
+platform/external/rust/crates/virtio-drivers,8597,0,0,0,107,0,16,4,12.446202163545422,2.24,0,0,0,1,24

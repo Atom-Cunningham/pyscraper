@@ -1,10 +1,10 @@
 Total repositories processed: 491
 
 Repositories using 'library': 10
-Repositories using 'hardware': 7
-Repositories using 'kernel': 4
 Repositories using 'core': 10
 Repositories using 'driver': 9
+Repositories using 'hardware': 7
+Repositories using 'kernel': 4
 
 Top 30 normalized directory segments:
 src: 465
@@ -24,14 +24,14 @@ rust: 36
 utils.rs: 35
 parser.rs: 32
 parse.rs: 31
-iter.rs: 27
 map.rs: 27
+iter.rs: 27
 bench.rs: 26
 ui: 25
 common: 24
-builder.rs: 23
 context.rs: 23
 android: 23
+builder.rs: 23
 traits.rs: 22
 serde.rs: 22
 types.rs: 20
