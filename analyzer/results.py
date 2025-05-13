@@ -43,17 +43,31 @@ plt.close()
 top_unsafe_raw = df['unsafe_count'].sort_values(ascending=False).head(10)
 top_unsafe_norm = (df['unsafe_count'] / df['total_lines'] * 1000).sort_values(ascending=False).head(10)
 
-top_unsafe_raw.plot(kind='bar', title='Top 10 Repos by Unsafe Block Count')
+# Clean labels for plotting
+def clean_label(label):
+    parts = label.split('/')
+    to_strip = {'platform', 'external', 'rust'}
+    while parts and parts[0] in to_strip:
+        parts.pop(0)
+    return '/'.join(parts)
+
+clean_index = df.index.map(clean_label)
+rename_map = dict(zip(df.index, clean_index))
+
+# Plot raw unsafe count
+top_unsafe_raw.rename(index=rename_map).plot(kind='bar', title='Top 10 Repos by Unsafe Block Count')
 plt.ylabel('Unsafe Block Count')
 plt.tight_layout()
 plt.savefig("top10_unsafe_repos_raw.png")
 plt.close()
 
-top_unsafe_norm.plot(kind='bar', title='Top 10 Repos by Unsafe Blocks per KLOC')
+# Plot normalized unsafe count
+top_unsafe_norm.rename(index=rename_map).plot(kind='bar', title='Top 10 Repos by Unsafe Blocks per KLOC')
 plt.ylabel('Unsafe Blocks per KLOC')
 plt.tight_layout()
 plt.savefig("top10_unsafe_repos_per_kloc.png")
 plt.close()
+
 
 # --- PCA (2D) on selected numeric features ---
 
